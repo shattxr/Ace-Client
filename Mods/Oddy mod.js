@@ -79,14 +79,14 @@ this.options = {
   max_players: 150,
   lives: 3,
   max_level: 7,
-  survival_level: 8,
+  // survival_level: 8,
   map_size: 70,
-  crystal_value: 5,
-  asteroids_strength: 0.5,
+  crystal_value: 1,
+  asteroids_strength: 1,
   weapons_store: true,
   bouncing_lasers: 0,
-  mines_destroy_delay: 3600,
-  projectile_speed: 2,
+  mines_destroy_delay: 18000,
+  projectile_speed: 1, //2
   survival_time: 30,
 };
 
