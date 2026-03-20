@@ -123,27 +123,27 @@ var vocabulary = [
 this.options = {
   vocabulary: vocabulary,
   ships:ships,
-  root_mode: "team", // Don't change to team mode if you don't want to crash your game :D
+  root_mode: "survival", // Don't change to team mode if you don't want to crash your game :D
   map_name: "Kuro's Project Type-R",
   survival_level: 8,
   reset_tree: false,
   starting_ship: 101,
-  max_player: 150,// you can change it to other if you don't want to start from Odyssey
+  max_player: 150,
   map_size: 60,
   map_id: 2, // you can change it to random number from 1 to 9999
-  speed_mod: 1.2,
-  crystal_value: 5,
+  speed_mod: 1,
+  crystal_value: 1,
   starting_ship_maxed: true,
-  asteroid_strengh: 0, // you ca
+  asteroid_strengh: 1, // you ca
   release_crystal: modifier.yeet_gems,
   weapons_store: false,
   lives: 3,
-  friendly_colors: 2,
-  station_crystal_capacity: 1.2,
-  station_repair_threshold: 1,
-  station_regeneration: 2.5,
-  acw_allowed: false,
-  hues: [180,42],
+  //friendly_colors: 2,
+  //station_crystal_capacity: 1.2,
+  //station_repair_threshold: 1,
+  //station_regeneration: 2.5,
+  //acw_allowed: false,
+  //hues: [180,42],
 };
 
 function r() {
