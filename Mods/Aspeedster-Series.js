@@ -122,7 +122,7 @@ this.options = {
  
  root_mode: "survival",
  starting_ship: 101,
- starting_ship_maxed: false,
+ starting_ship_maxed: true,
  max_level: 7,
  max_players: 80,
  survival_time: 30,
@@ -137,7 +137,7 @@ this.options = {
  projectile_speed: 1,
  healing_enabled: false,
  healing_ratio: 0,
- bouncing_lasers: 1,
+ bouncing_lasers: 0,
  friendly_colors: 0,
  friction_ratio: 1,
  shield_regen_factor: 1,
@@ -149,20 +149,20 @@ this.options = {
  collider: true,
  mines_self_destroy: true,
  mines_destroy_delay: 18000,
- speed_mod: 1.2,
+ speed_mod: 1,
  acw_allowed: false,
  
  //Map Settings :
  
  map_size: 100,
- crystal_value: 3,
+ crystal_value: 1,
  asteroids_strength: 1,
  
  //Ship Settings :
  
  lives: 3,
  max_tier_lives: 0,
- rcs_toggle: true, 
+ rcs_toggle: true,
 };
  
 this.tick = function(game) {
