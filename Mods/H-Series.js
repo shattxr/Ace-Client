@@ -66,108 +66,79 @@ var H_Raider_703 = '{"name":"H-Raider","level":7,"model":3,"size":2.5,"specs":{"
 var UltraScorpion_704 = '{"name":"UltraScorpion","level":7,"model":4,"size":2.75,"specs":{"shield":{"capacity":[675,675],"reload":[20,20]},"generator":{"capacity":[1100,1100],"reload":[190,190]},"ship":{"mass":1100,"speed":[80,80],"rotation":[30,30],"acceleration":[35,35]}},"bodies":{"main":{"section_segments":8,"offset":{"x":0,"y":-30,"z":25},"position":{"x":[0,0,0,0,0,0,0,0,0,0],"y":[-60,-40,-45,-30,0,40,90,120,110],"z":[0,0,0,0,0,0,0,0,0,0]},"width":[0,10,20,25,30,30,30,20,0],"height":[0,10,20,25,30,30,30,20,0],"texture":[6,4,9,9,10,3,13,17],"propeller":true,"laser":{"damage":[10,10],"rate":10,"type":1,"speed":[300,300],"number":2,"error":20}},"arms":{"section_segments":8,"offset":{"x":124,"y":-20,"z":10},"position":{"x":[10,10,10,10,0,-15,-26,-50,-75],"y":[-85,-70,-80,-40,0,30,50,80,90],"z":[0,0,0,0,0,0,0,0,0]},"width":[0,10,15,20,22,22,21,20,0],"height":[0,10,15,20,25,25,21,20,0],"texture":[6,4,4,10,4,63,4],"propeller":false,"angle":20,"laser":{"damage":[10,10],"rate":6,"type":1,"speed":[300,300],"number":2,"error":20}},"arms1":{"section_segments":8,"offset":{"x":80,"y":20,"z":5},"position":{"x":[-40,-40,-40,-40,-40,-40,-40,-40,-40],"y":[-135,-110,-120,-70,-30,0,30,65,50],"z":[0,0,0,0,0,0,0,0,0,0]},"width":[0,10,20,30,30,30,30,25,0],"height":[0,10,20,30,30,30,30,25,0],"texture":[6,4,3,4,10,4,3,17],"angle":0,"propeller":true,"laser":{"damage":[12,12],"rate":7,"type":1,"speed":[300,300],"number":3}},"disc1":{"section_segments":8,"offset":{"x":0,"y":15,"z":25},"position":{"x":[0,0,0,0,0,0,0,0,0,0],"y":[0,0,0,0,0,15,15,15,15,15],"z":[0,0,0,0,0,0,0,0,0,0]},"width":[0,33,33,33,33,33,33,33,33,0],"height":[0,33,33,33,33,33,33,33,33,0],"texture":[63],"angle":0},"disc2":{"section_segments":8,"offset":{"x":0,"y":40,"z":25},"position":{"x":[0,0,0,0,0,0,0,0,0,0],"y":[0,0,0,0,0,15,15,15,15,15],"z":[0,0,0,0,0,0,0,0,0,0]},"width":[0,33,33,33,33,33,33,33,33,0],"height":[0,33,33,33,33,33,33,33,33,0],"texture":[63],"angle":0},"disc3":{"section_segments":8,"offset":{"x":40,"y":27.5,"z":5},"position":{"x":[0,0,0,0,0,0,0,0,0,0],"y":[0,0,0,0,0,15,15,15,15,15],"z":[0,0,0,0,0,0,0,0,0,0]},"width":[0,33,33,33,33,33,33,33,33,0],"height":[0,33,33,33,33,33,33,33,33,0],"texture":[63],"angle":0},"disc4":{"section_segments":8,"offset":{"x":40,"y":-37.5,"z":5},"position":{"x":[0,0,0,0,0,0,0,0,0,0],"y":[0,0,0,0,0,15,15,15,15,15],"z":[0,0,0,0,0,0,0,0,0,0]},"width":[0,33,33,33,33,33,33,33,33,0],"height":[0,33,33,33,33,33,33,33,33,0],"texture":[8],"angle":0}},"wings":{"main":{"offset":{"x":-10,"y":20,"z":10},"length":[50,70],"width":[30,30,30],"angle":[0,0],"position":[30,-5,30],"texture":[63,63],"bump":{"position":30,"size":10}},"main_front":{"offset":{"x":-10,"y":-60,"z":10},"length":[50,70],"width":[50,50,30],"angle":[0,0],"position":[30,0,20],"texture":[63,63],"bump":{"position":30,"size":10}},"sides_top":{"offset":{"x":125,"y":-20,"z":20},"length":[60],"width":[70,40],"angle":[60],"position":[0,15],"doubleside":true,"texture":[63],"bump":{"position":30,"size":10}},"sides_bottom":{"offset":{"x":125,"y":-20,"z":0},"length":[60],"width":[70,40],"angle":[-60],"position":[0,15],"doubleside":true,"texture":[63],"bump":{"position":30,"size":10}}},"typespec":{"name":"UltraScorpion","level":7,"model":4,"code":704,"specs":{"shield":{"capacity":[675,675],"reload":[20,20]},"generator":{"capacity":[1100,1100],"reload":[190,190]},"ship":{"mass":1100,"speed":[80,80],"rotation":[30,30],"acceleration":[35,35]}},"shape":[4.95,4.398,5.781,6.697,6.414,6.23,8.11,8.729,8.582,8.485,8.301,8.635,8.592,8.565,7.681,7.627,7.671,7.609,7.169,6.889,5.885,5.532,5.163,5.071,5.039,4.96,5.039,5.071,5.163,5.532,5.885,6.889,7.169,7.609,7.671,7.627,7.681,8.565,8.592,8.635,8.301,8.485,8.582,8.729,8.11,6.23,6.414,6.697,5.781,4.398],"lasers":[{"x":0,"y":-4.95,"z":1.375,"angle":0,"damage":[10,10],"rate":10,"type":1,"speed":[300,300],"number":2,"spread":0,"error":20,"recoil":0},{"x":5.738,"y":-5.681,"z":0.55,"angle":20,"damage":[10,10],"rate":6,"type":1,"speed":[300,300],"number":2,"spread":0,"error":20,"recoil":0},{"x":-5.738,"y":-5.681,"z":0.55,"angle":-20,"damage":[10,10],"rate":6,"type":1,"speed":[300,300],"number":2,"spread":0,"error":20,"recoil":0},{"x":2.2,"y":-6.325,"z":0.275,"angle":0,"damage":[12,12],"rate":7,"type":1,"speed":[300,300],"number":3,"spread":0,"error":0,"recoil":0},{"x":-2.2,"y":-6.325,"z":0.275,"angle":0,"damage":[12,12],"rate":7,"type":1,"speed":[300,300],"number":3,"spread":0,"error":0,"recoil":0}],"radius":8.729}}';
 var Sub_Atomic_705 = '{"name":"Sub-Atomic","level":7,"model":5,"size":2.8,"specs":{"shield":{"capacity":[725,725],"reload":[17,17]},"generator":{"capacity":[1100,1100],"reload":[185,185]},"ship":{"mass":950,"speed":[80,80],"rotation":[15,15],"acceleration":[35,35]}},"bodies":{"main":{"section_segments":8,"offset":{"x":0,"y":-40,"z":20},"position":{"x":[0,0,0,0,0,0,0,0,0],"y":[-65,-70,-60,-40,0,50,110,145],"z":[0,0,0,0,0,0,-10,-10]},"width":[1,5,10,20,20,25,15,0],"height":[1,5,10,15,25,20,15,0],"texture":[6,4,4,63,11,63,4],"propeller":false,"laser":{"damage":[15,15],"rate":10,"type":1,"speed":[270,270],"number":1,"error":5,"recoil":0}},"cockpit":{"section_segments":8,"offset":{"x":0,"y":-60,"z":35},"position":{"x":[0,0,0,0,0,0,0],"y":[-20,-10,0,15,25],"z":[0,0,0,0,0]},"width":[0,10,12,10,5],"height":[0,10,13,12,5],"texture":[9,9,4,4],"propeller":false},"arms":{"section_segments":8,"offset":{"x":80,"y":55,"z":-10},"position":{"x":[0,0,0,0,-20,-20,-20,-20,-20],"y":[-85,-70,-80,-30,0,30,80,100,90],"z":[0,0,0,0,0,0,0,0,0]},"width":[2,20,20,20,20,20,20,15,0],"height":[1,20,20,20,20,20,20,15,0],"texture":[4,10,3,4,10,3,13,17],"angle":0,"propeller":true},"frontspan":{"section_segments":8,"offset":{"x":80,"y":-125,"z":-10},"position":{"x":[-20,-20,-20,-20,-20,0,0,0],"y":[-85,-70,-80,-30,0,30,100,0],"z":[0,0,0,0,0,0,0,0]},"width":[2,15,15,15,15,20,20,0],"height":[1,15,15,15,15,20,20,0],"texture":[4,4,4,10,4,3,12],"angle":0,"propeller":false,"laser":{"damage":[100,100],"rate":1,"type":1,"speed":[270,270],"number":1,"error":5,"recoil":0}},"frontcannon":{"section_segments":8,"offset":{"x":0,"y":-135,"z":-10},"position":{"x":[0,0,0,0,0,0,0,0],"y":[-85,-70,-80,-30,0,30,130,120],"z":[0,0,0,0,0,-20,-20,-20]},"width":[2,15,15,15,15,20,20,0],"height":[1,15,15,15,15,20,20,0],"texture":[4,4,4,10,4,3,12],"angle":0,"propeller":false,"laser":{"damage":[75,75],"rate":1,"type":1,"speed":[270,270],"number":2,"angle":20,"recoil":0}},"frontcannonattachment":{"section_segments":8,"offset":{"x":0,"y":65,"z":-10},"position":{"x":[0,0,0,0,0,0,0,0,0],"y":[-85,-70,-80,-30,0,30,110,130,120],"z":[-20,-20,-20,-20,0,0,0,0,0]},"width":[2,20,20,20,15,30,30,20,0],"height":[1,20,20,20,15,30,30,20,0],"texture":[4,4,4,4,4,3,13,17],"angle":0,"propeller":true},"disc1":{"section_segments":8,"offset":{"x":0,"y":105,"z":-10},"position":{"x":[0,0,0,0,0,0,0,0,0,0],"y":[0,0,0,0,0,15,15,15,15,15],"z":[0,0,0,0,0,0,0,0,0,0]},"width":[0,33,33,33,33,33,33,33,33,0],"height":[0,33,33,33,33,33,33,33,33,0],"texture":[63],"angle":0},"disc1_sides":{"section_segments":8,"offset":{"x":60,"y":105,"z":-10},"position":{"x":[0,0,0,0,0,0,0,0,0,0],"y":[0,0,0,0,0,15,15,15,15,15],"z":[0,0,0,0,0,0,0,0,0,0]},"width":[0,22,22,22,22,22,22,22,22,0],"height":[0,22,22,22,22,22,22,22,22,0],"texture":[4],"angle":0},"disc2":{"section_segments":8,"offset":{"x":0,"y":150,"z":-10},"position":{"x":[0,0,0,0,0,0,0,0,0,0],"y":[0,0,0,0,0,15,15,15,15,15],"z":[0,0,0,0,0,0,0,0,0,0]},"width":[0,33,33,33,33,33,33,33,33,0],"height":[0,33,33,33,33,33,33,33,33,0],"texture":[63],"angle":0},"disc3":{"section_segments":8,"offset":{"x":80,"y":-10,"z":-10},"position":{"x":[0,0,0,0,0,0,0,0,0,0],"y":[0,0,0,0,0,20,20,20,20,20],"z":[0,0,0,0,0,0,0,0,0,0]},"width":[0,22,22,22,22,22,22,22,22,0],"height":[0,22,22,22,22,22,22,22,22,0],"texture":[63],"angle":0},"disc4":{"section_segments":8,"offset":{"x":80,"y":-80,"z":-10},"position":{"x":[0,0,0,0,0,0,0,0,0,0],"y":[0,0,0,0,0,20,20,20,20,20],"z":[0,0,0,0,0,0,0,0,0,0]},"width":[0,22,22,22,22,22,22,22,22,0],"height":[0,22,22,22,22,22,22,22,22,0],"texture":[63],"angle":0},"disc5":{"section_segments":8,"offset":{"x":80,"y":-47.5,"z":-10},"position":{"x":[0,0,0,0,0,0,0,0,0,0],"y":[0,0,0,0,0,25,25,25,25,25],"z":[0,0,0,0,0,0,0,0,0,0]},"width":[0,22,22,22,22,22,22,22,22,0],"height":[0,22,22,22,22,22,22,22,22,0],"texture":[10],"angle":0}},"wings":{"main":{"offset":{"x":0,"y":-50,"z":20},"length":[80],"width":[60,30],"angle":[-20],"position":[30,50],"texture":[11],"bump":{"position":30,"size":10}},"font":{"length":[80],"width":[20,30],"angle":[-10,20],"position":[-20,-40],"texture":[63],"bump":{"position":30,"size":10},"offset":{"x":-10,"y":-40,"z":0}},"font2":{"offset":{"x":0,"y":40,"z":8},"length":[60],"width":[20,15],"angle":[-10,20],"position":[20,40],"texture":[63],"bump":{"position":30,"size":10}},"fontnth01":{"offset":{"x":0,"y":-210,"z":0},"length":[50],"width":[20,15],"angle":[-10,20],"position":[40,20],"texture":[63],"bump":{"position":30,"size":10}},"fontnth02":{"offset":{"x":0,"y":-180,"z":0},"length":[50],"width":[20,15],"angle":[-10,20],"position":[20,40],"texture":[63],"bump":{"position":30,"size":10}},"font3":{"offset":{"x":13,"y":20,"z":25},"length":[30],"width":[40,35],"angle":[20],"position":[20,40],"texture":[63],"bump":{"position":30,"size":10}},"font3_mil":{"offset":{"x":13,"y":110,"z":-5},"length":[30],"width":[45,35],"angle":[0],"position":[20,0],"texture":[63],"bump":{"position":30,"size":10}}},"typespec":{"name":"Sub-Atomic","level":7,"model":5,"code":705,"specs":{"shield":{"capacity":[725,725],"reload":[17,17]},"generator":{"capacity":[1100,1100],"reload":[185,185]},"ship":{"mass":950,"speed":[80,80],"rotation":[15,15],"acceleration":[35,35]}},"shape":[12.321,12.069,12.262,12.224,9.845,8.311,7.838,7.67,7.057,6.375,6.141,5.895,5.739,5.739,5.772,5.759,5.557,5.534,6.145,7.02,8.358,9.643,9.593,9.423,10.977,10.941,10.977,9.423,9.593,9.643,8.358,7.02,6.145,5.534,5.557,5.759,5.772,5.739,5.739,5.895,6.141,6.375,7.057,7.67,7.838,8.311,9.845,12.224,12.262,12.069],"lasers":[{"x":0,"y":-6.16,"z":1.12,"angle":0,"damage":[15,15],"rate":10,"type":1,"speed":[270,270],"number":1,"spread":0,"error":5,"recoil":0},{"x":3.36,"y":-11.76,"z":-0.56,"angle":0,"damage":[100,100],"rate":1,"type":1,"speed":[270,270],"number":1,"spread":0,"error":5,"recoil":0},{"x":-3.36,"y":-11.76,"z":-0.56,"angle":0,"damage":[100,100],"rate":1,"type":1,"speed":[270,270],"number":1,"spread":0,"error":5,"recoil":0},{"x":0,"y":-12.32,"z":-0.56,"angle":0,"damage":[75,75],"rate":1,"type":1,"speed":[270,270],"number":2,"spread":20,"error":0,"recoil":0}],"radius":12.321}}';
 var Spectator_707 = '{"name":"Spectator","level":7,"model":7,"size":1.35,"specs":{"shield":{"capacity":[250,250],"reload":[10,10]},"generator":{"capacity":[450,450],"reload":[75,75]},"ship":{"mass":200,"speed":[145,145],"rotation":[90,90],"acceleration":[125,125]}},"tori":{"circle":{"segments":20,"radius":95,"section_segments":6,"offset":{"x":-20,"y":20,"z":0},"position":{"x":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"y":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"z":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]},"width":[20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20],"height":[8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8],"texture":[63,63,4,10,4,4,10,4,63,11,63,63,3,10,3,3,10,3,63,11]}},"bodies":{"main":{"section_segments":8,"offset":{"x":0,"y":0,"z":0},"position":{"x":[0,0,0,0,0,0,0,0],"y":[-55,-60,-30,0,30,60,55],"z":[0,0,0,0,0,0,0,0]},"width":[0,25,30,30,30,30,0],"height":[0,25,30,30,30,30,0],"texture":[15,3,4,8,3,15],"propeller":false},"props_bottom":{"section_segments":8,"offset":{"x":10,"y":10,"z":-10},"position":{"x":[0,0,0,0,0,0,0,0,0,0],"y":[-20,-15,0,10,20,25,30,40,60,55],"z":[0,0,0,0,0,0,0,0,0,0]},"width":[0,10,15,15,15,10,10,15,10,0],"height":[0,10,15,15,15,10,10,15,10,0],"texture":[3,4,10,3,3,3,3,3,17],"propeller":true},"props_top":{"section_segments":8,"offset":{"x":10,"y":10,"z":10},"position":{"x":[0,0,0,0,0,0,0,0,0,0],"y":[-20,-15,0,10,20,25,30,40,60,55],"z":[0,0,0,0,0,0,0,0,0,0]},"width":[0,10,15,15,15,10,10,15,10,0],"height":[0,10,15,15,15,10,10,15,10,0],"texture":[3,4,10,3,3,3,3,3,17],"propeller":true},"cockpit":{"section_segments":8,"offset":{"x":0,"y":-53,"z":0},"position":{"x":[0,0,0,0,0,0,0],"y":[-18,-15,0],"z":[0,0,0]},"width":[0,20,18,0],"height":[0,20,18,0],"texture":[9],"propeller":false,"laser":{"damage":[250,250],"rate":2,"type":1,"speed":[100,100],"number":1,"error":4}},"lasers":{"section_segments":8,"offset":{"x":0,"y":-53,"z":0},"position":{"x":[0,0,0,0,0,0,0],"y":[-18,-15,0],"z":[0,0,0]},"width":[0,20,18,0],"height":[0,20,18,0],"texture":[9],"propeller":false,"laser":{"damage":[10,10],"rate":10,"type":1,"speed":[250,250],"number":1,"error":4}},"lasers_2":{"section_segments":8,"offset":{"x":0,"y":-53,"z":0},"position":{"x":[0,0,0,0,0,0,0],"y":[-18,-15,0],"z":[0,0,0]},"width":[0,20,18,0],"height":[0,20,18,0],"texture":[9],"propeller":false,"laser":{"damage":[7,7],"rate":10,"type":1,"speed":[300,300],"number":1,"error":4}}},"wings":{"main":{"doubleside":true,"offset":{"x":0,"y":-30,"z":0},"length":[70],"width":[50,30],"angle":[0],"position":[0,50],"texture":63,"bump":{"position":30,"size":20}},"top":{"doubleside":true,"offset":{"x":0,"y":-30,"z":0},"length":[70],"width":[50,30],"angle":[90],"position":[0,50],"texture":63,"bump":{"position":30,"size":20}},"bottom":{"doubleside":true,"offset":{"x":0,"y":-30,"z":0},"length":[70],"width":[50,30],"angle":[-90],"position":[0,50],"texture":63,"bump":{"position":30,"size":20}}},"typespec":{"name":"Spectator","level":7,"model":7,"code":707,"specs":{"shield":{"capacity":[250,250],"reload":[10,10]},"generator":{"capacity":[450,450],"reload":[75,75]},"ship":{"mass":200,"speed":[145,145],"rotation":[90,90],"acceleration":[125,125]}},"shape":[1.917,1.902,1.914,1.755,1.638,1.393,1.232,1.156,1.197,1.267,1.369,1.507,1.72,2.197,2.306,2.331,2.359,2.091,1.713,1.47,1.508,1.811,1.851,1.966,1.924,1.894,1.924,1.966,1.851,1.811,1.508,1.47,1.713,2.091,2.359,2.331,2.306,2.197,1.72,1.507,1.369,1.267,1.197,1.156,1.232,1.393,1.638,1.755,1.914,1.902],"lasers":[{"x":0,"y":-1.917,"z":0,"angle":0,"damage":[250,250],"rate":2,"type":1,"speed":[100,100],"number":1,"spread":0,"error":4,"recoil":0},{"x":0,"y":-1.917,"z":0,"angle":0,"damage":[10,10],"rate":10,"type":1,"speed":[250,250],"number":1,"spread":0,"error":4,"recoil":0},{"x":0,"y":-1.917,"z":0,"angle":0,"damage":[7,7],"rate":10,"type":1,"speed":[300,300],"number":1,"spread":0,"error":4,"recoil":0}],"radius":2.359}}';
- 
- 
-/******************************************************************************/
- 
- 
+
 var ships = [];
- 
-  ships.push(H_Mercury_101);
- 
-/******************************************************************************/
- 
-    ships.push(H_Gunner_201);
-    ships.push(H_Generator_202);
- 
-/******************************************************************************/ 
- 
-      ships.push(H_Treader_301);
-      ships.push(H_Rail_302);
-      ships.push(H_Combatant_303);
-      ships.push(H_Aggressor_304);
- 
-/******************************************************************************/ 
- 
-        ships.push(H_Pincer_401);
-        ships.push(H_Scope_402);
-        ships.push(H_Shotgun_403);
-        ships.push(H_Enforcer_404);
-        ships.push(H_Pyramid_405);
-        ships.push(H_Attacker_406);
- 
-/******************************************************************************/ 
- 
-          ships.push(H_Rusher_501);
-          ships.push(H_Wrestler_502);
-          ships.push(H_Cruiser_503);
-          ships.push(Doombringer_504);
-          ships.push(H_Pounder_505);
-          ships.push(H_Brawler_506);
-          ships.push(H_Calliber_507);
-          ships.push(H_Assailant_508);
- 
-/******************************************************************************/ 
- 
-            ships.push(H_Burst_601);
-            ships.push(H_Warrior_602);
-            ships.push(H_Razer_603);
-            ships.push(H_Stingray_604);
-            ships.push(H_Gladiator_605);
-            ships.push(H_Smasher_606);
-            ships.push(QuadCannon_607);
-            ships.push(QuadStrike_608);
-            ships.push(H_Castle_609);
-            ships.push(H_12_Gunner_610);
- 
-/******************************************************************************/ 
- 
-              ships.push(H_Booster_701);
-              ships.push(H_Crawler_702);
-              ships.push(H_Raider_703);
-              ships.push(UltraScorpion_704);
-              ships.push(Sub_Atomic_705);
-              ships.push(Spectator_707);
- 
-/******************************************************************************/
- 
+ships.push(H_Mercury_101);
+
+ships.push(H_Gunner_201);
+ships.push(H_Generator_202);
+
+ships.push(H_Treader_301);
+ships.push(H_Rail_302);
+ships.push(H_Combatant_303);
+ships.push(H_Aggressor_304);
+
+ships.push(H_Pincer_401);
+ships.push(H_Scope_402);
+ships.push(H_Shotgun_403);
+ships.push(H_Enforcer_404);
+ships.push(H_Pyramid_405);
+ships.push(H_Attacker_406);
+
+ships.push(H_Rusher_501);
+ships.push(H_Wrestler_502);
+ships.push(H_Cruiser_503);
+ships.push(Doombringer_504);
+ships.push(H_Pounder_505);
+ships.push(H_Brawler_506);
+ships.push(H_Calliber_507);
+ships.push(H_Assailant_508);
+
+ships.push(H_Burst_601);
+ships.push(H_Warrior_602);
+ships.push(H_Razer_603);
+ships.push(H_Stingray_604);
+ships.push(H_Gladiator_605);
+ships.push(H_Smasher_606);
+ships.push(QuadCannon_607);
+ships.push(QuadStrike_608);
+ships.push(H_Castle_609);
+ships.push(H_12_Gunner_610);
+
+ships.push(H_Booster_701);
+ships.push(H_Crawler_702);
+ships.push(H_Raider_703);
+ships.push(UltraScorpion_704);
+ships.push(Sub_Atomic_705);
+ships.push(Spectator_707);
  
 var asteroidMaps = [9628, 116, 7656, 5438, 997, 4001, 9199, 3559];
  
 var mapCode = asteroidMaps[Math.floor(Math.random() * Math.floor(asteroidMaps.length))];
  
 this.options = {
- 
-  root_mode:           "team", /* survival, team, invasion, deathmatch, battleroyale  */
- 
-  asteroids_strength:  0.9,
-  crystal_value:       1.3,
- 
+  root_mode:           "survival", /* survival, team, invasion, deathmatch, battleroyale  */
+  
+  asteroids_strength:  1,
+  crystal_value:       1,
+  
   healing_enabled:     true,
- 
   reset_tree:          true,
   ships:               ships,
   starting_ship:       101,
-  friendly_colors:     2,
- 
+  friendly_colors:     0,
+  
   map_id:              mapCode,
   map_size:            60,
- 
+  
   speed_mod:           1.25, // Don't change, the whole tree needs it anyway
- 
+  
   station_crystal_capacity:   1.25,
   station_size:               2,
- 
- 
-  //survival_level:      8,
-  //survival_time:       999999,
-  //starting_ship_maxed: true,
-  //radar_zoom:          2,
-  //map_name:          "H-Series",
- 
- 
+  
+  starting_ship_maxed: true,
+  radar_zoom:          2,
+  map_name:          "H-Series",
+  
   //hues: [0,240],
- 
- 
- 
 };
