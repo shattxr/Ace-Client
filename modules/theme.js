@@ -1,21 +1,23 @@
 // Ace Client Theme Module
 // Dark CSS theme and visual modifications
 
-(function(AceCore, AceSFX, CONFIG, STATE) {
+(function(AceCore, AceSFX, CONFIG, log) {
     'use strict';
 
-    const module = {
+    var module = {
         name: 'theme',
         
-        init() {
+        init: function() {
+            log('Theme module initializing...');
             this.injectDarkCSS();
             this.applyTheme();
             this.replaceLogo();
             this.addAnimations();
+            log('Theme module ready');
         },
         
-        destroy() {
-            const style = document.getElementById('ace-dark-theme');
+        destroy: function() {
+            var style = document.getElementById('ace-dark-theme');
             if (style) style.remove();
         },
         
