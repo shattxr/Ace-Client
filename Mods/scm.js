@@ -1,31 +1,42 @@
-var Ball_601 = '{"name":"Ball","level":6,"model":1,"size":1,"zoom":0.5,"specs":{"shield":{"capacity":[1,1],"reload":[1,1]},"generator":{"capacity":[1,1],"reload":[1,1]},"ship":{"mass":100,"speed":[80,80],"rotation":[30,30],"acceleration":[60,60]}},"bodies":{"side1":{"section_segments":6,"angle":0,"offset":{"x":0,"y":0,"z":0},"position":{"x":[0,0,0,0,0,0,0,0,0,0],"y":[-80,-75,-60,-50,-30,0],"z":[0,0,0,0,0,0,0,0,0,0]},"width":[0,20,30,10,25,25],"height":[0,10,12,8,22,22],"texture":[16.8,63,0.9,10,17]},"side2":{"section_segments":6,"angle":60,"offset":{"x":0,"y":0,"z":0},"position":{"x":[0,0,0,0,0,0,0,0,0,0],"y":[-80,-75,-60,-50,-30,0],"z":[0,0,0,0,0,0,0,0,0,0]},"width":[0,20,30,10,25,25],"height":[0,10,12,8,22,22],"texture":[16.8,63,0.9,10,17]},"side3":{"section_segments":6,"angle":120,"offset":{"x":0,"y":0,"z":0},"position":{"x":[0,0,0,0,0,0,0,0,0,0],"y":[-80,-75,-60,-50,-30,0],"z":[0,0,0,0,0,0,0,0,0,0]},"width":[0,20,30,10,25,25],"height":[0,10,12,8,22,22],"texture":[16.8,63,0.9,10,17]},"side4":{"section_segments":6,"angle":180,"offset":{"x":0,"y":0,"z":0},"position":{"x":[0,0,0,0,0,0,0,0,0,0],"y":[-80,-75,-60,-50,-30,0],"z":[0,0,0,0,0,0,0,0,0,0]},"width":[0,20,30,10,25,25],"height":[0,10,12,8,22,22],"texture":[16.8,63,0.9,10,17]},"side5":{"section_segments":6,"angle":240,"offset":{"x":0,"y":0,"z":0},"position":{"x":[0,0,0,0,0,0,0,0,0,0],"y":[-80,-75,-60,-50,-30,0],"z":[0,0,0,0,0,0,0,0,0,0]},"width":[0,20,30,10,25,25],"height":[0,10,12,8,22,22],"texture":[16.8,63,0.9,10,17]},"side6":{"section_segments":6,"angle":300,"offset":{"x":0,"y":0,"z":0},"position":{"x":[0,0,0,0,0,0,0,0,0,0],"y":[-80,-75,-60,-50,-30,0],"z":[0,0,0,0,0,0,0,0,0,0]},"width":[0,20,30,10,25,25],"height":[0,10,12,8,22,22],"texture":[16.8,63,0.9,10,17]},"side7":{"section_segments":6,"angle":30,"offset":{"x":0,"y":0,"z":0},"position":{"x":[0,0,0,0,0,0,0,0,0,0],"y":[-80,-75,-60,-50,-30,0],"z":[0,0,0,0,0,0,0,0,0,0]},"width":[0,20,30,10,25,25],"height":[0,10,12,8,22,22],"texture":[16.8,63,0.9,10,17]},"side8":{"section_segments":6,"angle":90,"offset":{"x":0,"y":0,"z":0},"position":{"x":[0,0,0,0,0,0,0,0,0,0],"y":[-80,-75,-60,-50,-30,0],"z":[0,0,0,0,0,0,0,0,0,0]},"width":[0,20,30,10,25,25],"height":[0,10,12,8,22,22],"texture":[16.8,63,0.9,10,17]},"side9":{"section_segments":6,"angle":150,"offset":{"x":0,"y":0,"z":0},"position":{"x":[0,0,0,0,0,0,0,0,0,0],"y":[-80,-75,-60,-50,-30,0],"z":[0,0,0,0,0,0,0,0,0,0]},"width":[0,20,30,10,25,25],"height":[0,10,12,8,22,22],"texture":[16.8,63,0.9,10,17]},"side10":{"section_segments":6,"angle":210,"offset":{"x":0,"y":0,"z":0},"position":{"x":[0,0,0,0,0,0,0,0,0,0],"y":[-80,-75,-60,-50,-30,0],"z":[0,0,0,0,0,0,0,0,0,0]},"width":[0,20,30,10,25,25],"height":[0,10,12,8,22,22],"texture":[16.8,63,0.9,10,17]},"side11":{"section_segments":6,"angle":270,"offset":{"x":0,"y":0,"z":0},"position":{"x":[0,0,0,0,0,0,0,0,0,0],"y":[-80,-75,-60,-50,-30,0],"z":[0,0,0,0,0,0,0,0,0,0]},"width":[0,20,30,10,25,25],"height":[0,10,12,8,22,22],"texture":[16.8,63,0.9,10,17]},"side12":{"section_segments":6,"angle":330,"offset":{"x":0,"y":0,"z":0},"position":{"x":[0,0,0,0,0,0,0,0,0,0],"y":[-80,-75,-60,-50,-30,0],"z":[0,0,0,0,0,0,0,0,0,0]},"width":[0,20,30,10,25,25],"height":[0,10,12,8,22,22],"texture":[16.8,63,0.9,10,17]},"t1":{"section_segments":12,"angle":30,"offset":{"x":0,"y":0,"z":0},"position":{"x":[0,0,0,0,0,0,0,0,0,0],"y":[-10,-10,0,10,10,0,-10],"z":[0,0,0,0,0,0,0,0,0,0]},"width":[60,75,77,75,60,50,60],"height":[60,75,77,75,60,50,60],"texture":[3.8,63,63,3.8]},"t2":{"section_segments":12,"angle":90,"offset":{"x":0,"y":0,"z":0},"position":{"x":[0,0,0,0,0,0,0,0,0,0],"y":[-10,-10,0,10,10,0,-10],"z":[0,0,0,0,0,0,0,0,0,0]},"width":[60,75,77,75,60,50,60],"height":[60,75,77,75,60,50,60],"texture":[3.8,63,63,3.8]},"t3":{"section_segments":12,"angle":150,"offset":{"x":0,"y":0,"z":0},"position":{"x":[0,0,0,0,0,0,0,0,0,0],"y":[-10,-10,0,10,10,0,-10],"z":[0,0,0,0,0,0,0,0,0,0]},"width":[60,75,77,75,60,50,60],"height":[60,75,77,75,60,50,60],"texture":[3.8,63,63,3.8]}},'+
-'"typespec":{"name":"Ball","level":6,"model":1,"code":601,"specs":{"shield":{"capacity":[1,1],"reload":[1,1]},"generator":{"capacity":[1,1],"reload":[1,1]},"ship":{"mass":250,"speed":[10,10],"rotation":[30,30],"acceleration":[130,130]}},"shape":[1.6,1.574,1.544,1.568,1.6,1.582,1.547,1.561,1.6,1.59,1.551,1.556,1.599,1.6,1.556,1.551,1.59,1.6,1.561,1.547,1.582,1.6,1.568,1.544,1.574,1.6,1.574,1.544,1.568,1.6,1.582,1.547,1.561,1.6,1.59,1.551,1.556,1.599,1.6,1.556,1.551,1.59,1.6,1.561,1.547,1.582,1.6,1.568,1.544,1.574],"lasers":[],"radius":1.6}}';
+/*̅‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾̅‾
+____________________________________________________
+ ╭─╮╭─╴╭─╴   ╭─╴╷  ╷╭─╴╭╮╷╶┬╴   ╭┬╮╭─╮╶┬╮╶┬╮╷╭╮╷╭─╴
+ ├─┤│  ├╴    │  │  │├╴ │╰┤ │    ││││ │ ││ ││││╰┤│╶╮
+ ╵ ╵╰─╴╰─╴   ╰─╴╰─╴╵╰─╴╵ ╵ ╵    ╵ ╵╰─╯╶┴╯╶┴╯╵╵ ╵╰─╯ 
+‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+ > 𝔰𝔬𝔠𝔠𝔢𝔯 𝔪𝔬𝔡
+ > Uranus
+ > 1.0.0
+____________________________________________________
+̲*/
+
+var Ball_601 = '{"name":"Ball","level":6,"model":1,"size":1,"zoom":0.5,"specs":{"shield":{"capacity":[1,1],"reload":[1,1]},"generator":{"capacity":[1,1],"reload":[1,1]},"ship":{"mass":100,"speed":[80,80],"rotation":[30,30],"acceleration":[60,60]}},"bodies":{"side1":{"section_segments":6,"angle":0,"offset":{"x":0,"y":0,"z":0},"position":{"x":[0,0,0,0,0,0,0,0,0,0],"y":[-80,-75,-60,-50,-30,0],"z":[0,0,0,0,0,0,0,0,0,0]},"width":[0,20,30,10,25,25],"height":[0,10,12,8,22,22],"texture":[16.8,63,0.9,10,17]},"side2":{"section_segments":6,"angle":60,"offset":{"x":0,"y":0,"z":0},"position":{"x":[0,0,0,0,0,0,0,0,0,0],"y":[-80,-75,-60,-50,-30,0],"z":[0,0,0,0,0,0,0,0,0,0]},"width":[0,20,30,10,25,25],"height":[0,10,12,8,22,22],"texture":[16.8,63,0.9,10,17]},"side3":{"section_segments":6,"angle":120,"offset":{"x":0,"y":0,"z":0},"position":{"x":[0,0,0,0,0,0,0,0,0,0],"y":[-80,-75,-60,-50,-30,0],"z":[0,0,0,0,0,0,0,0,0,0]},"width":[0,20,30,10,25,25],"height":[0,10,12,8,22,22],"texture":[16.8,63,0.9,10,17]},"side4":{"section_segments":6,"angle":180,"offset":{"x":0,"y":0,"z":0},"position":{"x":[0,0,0,0,0,0,0,0,0,0],"y":[-80,-75,-60,-50,-30,0],"z":[0,0,0,0,0,0,0,0,0,0]},"width":[0,20,30,10,25,25],"height":[0,10,12,8,22,22],"texture":[16.8,63,0.9,10,17]},"side5":{"section_segments":6,"angle":240,"offset":{"x":0,"y":0,"z":0},"position":{"x":[0,0,0,0,0,0,0,0,0,0],"y":[-80,-75,-60,-50,-30,0],"z":[0,0,0,0,0,0,0,0,0,0]},"width":[0,20,30,10,25,25],"height":[0,10,12,8,22,22],"texture":[16.8,63,0.9,10,17]},"side6":{"section_segments":6,"angle":300,"offset":{"x":0,"y":0,"z":0},"position":{"x":[0,0,0,0,0,0,0,0,0,0],"y":[-80,-75,-60,-50,-30,0],"z":[0,0,0,0,0,0,0,0,0,0]},"width":[0,20,30,10,25,25],"height":[0,10,12,8,22,22],"texture":[16.8,63,0.9,10,17]},"side7":{"section_segments":6,"angle":30,"offset":{"x":0,"y":0,"z":0},"position":{"x":[0,0,0,0,0,0,0,0,0,0],"y":[-80,-75,-60,-50,-30,0],"z":[0,0,0,0,0,0,0,0,0,0]},"width":[0,20,30,10,25,25],"height":[0,10,12,8,22,22],"texture":[16.8,63,0.9,10,17]},"side8":{"section_segments":6,"angle":90,"offset":{"x":0,"y":0,"z":0},"position":{"x":[0,0,0,0,0,0,0,0,0,0],"y":[-80,-75,-60,-50,-30,0],"z":[0,0,0,0,0,0,0,0,0,0]},"width":[0,20,30,10,25,25],"height":[0,10,12,8,22,22],"texture":[16.8,63,0.9,10,17]},"side9":{"section_segments":6,"angle":150,"offset":{"x":0,"y":0,"z":0},"position":{"x":[0,0,0,0,0,0,0,0,0,0],"y":[-80,-75,-60,-50,-30,0],"z":[0,0,0,0,0,0,0,0,0,0]},"width":[0,20,30,10,25,25],"height":[0,10,12,8,22,22],"texture":[16.8,63,0.9,10,17]},"side10":{"section_segments":6,"angle":210,"offset":{"x":0,"y":0,"z":0},"position":{"x":[0,0,0,0,0,0,0,0,0,0],"y":[-80,-75,-60,-50,-30,0],"z":[0,0,0,0,0,0,0,0,0,0]},"width":[0,20,30,10,25,25],"height":[0,10,12,8,22,22],"texture":[16.8,63,0.9,10,17]},"side11":{"section_segments":6,"angle":270,"offset":{"x":0,"y":0,"z":0},"position":{"x":[0,0,0,0,0,0,0,0,0,0],"y":[-80,-75,-60,-50,-30,0],"z":[0,0,0,0,0,0,0,0,0,0]},"width":[0,20,30,10,25,25],"height":[0,10,12,8,22,22],"texture":[16.8,63,0.9,10,17]},"side12":{"section_segments":6,"angle":330,"offset":{"x":0,"y":0,"z":0},"position":{"x":[0,0,0,0,0,0,0,0,0,0],"y":[-80,-75,-60,-50,-30,0],"z":[0,0,0,0,0,0,0,0,0,0]},"width":[0,20,30,10,25,25],"height":[0,10,12,8,22,22],"texture":[16.8,63,0.9,10,17]},"t1":{"section_segments":12,"angle":30,"offset":{"x":0,"y":0,"z":0},"position":{"x":[0,0,0,0,0,0,0,0,0,0],"y":[-10,-10,0,10,10,0,-10],"z":[0,0,0,0,0,0,0,0,0,0]},"width":[60,75,77,75,60,50,60],"height":[60,75,77,75,60,50,60],"texture":[3.8,63,63,3.8]},"t2":{"section_segments":12,"angle":90,"offset":{"x":0,"y":0,"z":0},"position":{"x":[0,0,0,0,0,0,0,0,0,0],"y":[-10,-10,0,10,10,0,-10],"z":[0,0,0,0,0,0,0,0,0,0]},"width":[60,75,77,75,60,50,60],"height":[60,75,77,75,60,50,60],"texture":[3.8,63,63,3.8]},"t3":{"section_segments":12,"angle":150,"offset":{"x":0,"y":0,"z":0},"position":{"x":[0,0,0,0,0,0,0,0,0,0],"y":[-10,-10,0,10,10,0,-10],"z":[0,0,0,0,0,0,0,0,0,0]},"width":[60,75,77,75,60,50,60],"height":[60,75,77,75,60,50,60],"texture":[3.8,63,63,3.8]}},'+'"typespec":{"name":"Ball","level":6,"model":1,"code":601,"specs":{"shield":{"capacity":[1,1],"reload":[1,1]},"generator":{"capacity":[1,1],"reload":[1,1]},"ship":{"mass":250,"speed":[10,10],"rotation":[30,30],"acceleration":[130,130]}},"shape":[1.6,1.574,1.544,1.568,1.6,1.582,1.547,1.561,1.6,1.59,1.551,1.556,1.599,1.6,1.556,1.551,1.59,1.6,1.561,1.547,1.582,1.6,1.568,1.544,1.574,1.6,1.574,1.544,1.568,1.6,1.582,1.547,1.561,1.6,1.59,1.551,1.556,1.599,1.6,1.556,1.551,1.59,1.6,1.561,1.547,1.582,1.6,1.568,1.544,1.574],"lasers":[],"radius":1.6}}';
 var Barracuda_602 = '{"name":"Barracuda","level":6,"model":2,"size":1.4,"zoom":0.6,"specs":{"shield":{"capacity":[400,400],"reload":[12,12]},"generator":{"capacity":[150,150],"reload":[14,14]},"ship":{"mass":675,"speed":[90,90],"rotation":[45,45],"acceleration":[150,150],"dash":{"rate":2,"burst_speed":[200,200],"speed":[150,150],"acceleration":[70,70],"initial_energy":[75,75],"energy":[30,30]}}},"bodies":{"body":{"section_segments":12,"offset":{"x":0,"y":0,"z":0},"position":{"x":[0,0,0,0,0,0,0,0,0,0],"y":[-90,-100,-60,-10,0,20,50,80,100,90],"z":[0,0,0,0,0,0,0,0,0,0,0]},"width":[0,5,20,25,35,40,40,35,30,0],"height":[0,5,40,45,40,60,70,60,30,0],"texture":[10,2,10,2,3,13,13,63,12],"propeller":true},"front":{"section_segments":8,"offset":{"x":0,"y":-20,"z":0},"position":{"x":[0,0,0,0,0],"y":[-90,-85,-70,-60,-20],"z":[0,0,0,0,0]},"width":[0,40,45,10,12],"height":[0,15,18,8,12],"texture":[8,63,4,4,4],"propeller":true},"propeller":{"section_segments":10,"offset":{"x":40,"y":40,"z":0},"position":{"x":[0,0,0,0,0,0,0,0,0,0],"y":[-20,-15,0,10,20,25,30,40,70,60],"z":[0,0,0,0,0,0,0,0,0,0]},"width":[0,10,15,15,15,10,10,20,15,0],"height":[0,10,15,15,15,10,10,18,8,0],"texture":[4,4,10,3,3,63,4,63,12],"propeller":true},"sides":{"section_segments":6,"angle":90,"offset":{"x":0,"y":0,"z":0},"position":{"x":[0,0,0,0,0,0,0,0,0,0],"y":[-80,-75,-60,-50,-10,10,50,60,75,80],"z":[0,0,0,0,0,0,0,0,0,0]},"width":[0,30,35,10,12,12,10,35,30,0],"height":[0,10,12,8,12,12,8,12,10,0],"texture":[4,63,4,4,4,4,4,63,4]},"cockpit":{"section_segments":12,"offset":{"x":0,"y":-20,"z":30},"position":{"x":[0,0,0,0,0,0,0,0],"y":[-50,-20,0,10,30,50],"z":[0,0,0,0,0,0]},"width":[0,12,18,20,15,0],"height":[0,20,22,24,20,0],"texture":[9]}},"wings":{"top":{"doubleside":true,"offset":{"x":0,"y":20,"z":15},"length":[70],"width":[70,30],"angle":[90],"position":[0,30],"texture":[63],"bump":{"position":10,"size":30}},"top2":{"doubleside":true,"offset":{"x":0,"y":51,"z":5},"length":[70],"width":[50,20],"angle":[90],"position":[0,60],"texture":[63],"bump":{"position":10,"size":30}}},"typespec":{"name":"Barracuda","level":6,"model":2,"code":602,"specs":{"shield":{"capacity":[400,400],"reload":[12,12]},"generator":{"capacity":[150,150],"reload":[14,14]},"ship":{"mass":675,"speed":[90,90],"rotation":[45,45],"acceleration":[150,150],"dash":{"rate":2,"burst_speed":[200,200],"speed":[150,150],"acceleration":[70,70],"initial_energy":[75,75],"energy":[30,30]}}},"shape":[3.08,3.062,3.11,3.146,2.884,1.165,1.018,0.907,0.837,2.092,2.222,2.204,2.239,2.24,2.204,2.222,2.092,1.87,2.083,2.275,2.994,3.434,3.404,3.238,2.85,3.388,2.85,3.238,3.404,3.434,2.994,2.275,2.083,1.87,2.092,2.222,2.204,2.239,2.24,2.204,2.222,2.092,0.837,0.907,1.018,1.165,2.884,3.146,3.11,3.062],"lasers":[],"radius":3.434}}';
 
-ships=[Ball_601, Barracuda_602]
+ships = [Ball_601, Barracuda_602];
 
 var vocabulary = [
       { text: "You", icon:"\u004e", key:"O" },
       { text: "Me", icon:"\u004f", key:"E" },
       { text: "Yes", icon:"\u004c", key:"Y" },
       { text: "No", icon:"\u004d", key:"N" },
-
+      
       { text: "Attack", icon:"(", key:"A" },
       { text: "Follow", icon:"\u0050", key:"F" },
       { text: "Nice", icon:"\u{1F525}", key:"M" },
       { text: "Defend", icon:"\u0025", key:"D" },
-
+      
       { text: "Wait", icon:"\u0048", key:"T" },
       { text: "Ball", icon:"\u26BD", key:"B" },
       { text: "Hmm", icon:"\u004b", key:"Q" },
       { text: "Shot", icon:"`", key:"W" },
       { text: "Flank", icon:"i", key:"U" },
-
+      
       { text: "Goal", icon:"\u{1F945}", key:"G" },
       { text: "No Prob", icon:"\u0047", key:"P" },
       { text: "Thanks", icon:"\u0041", key:"X" },
       { text: "Sorry", icon:"\u00a1", key:"S" }
-    ] ;
+] ;
     
 mapsize = 50;
 fieldSizeX = 0.3;
@@ -35,9 +46,9 @@ goalPos = 0.8;
 ms = mapsize/2
 
 map = "";
-for(y=-ms;y<ms+1;y++){
-  for(x=-ms;x<ms;x++){
-    if(Math.abs(x+0.5)>Math.round(fieldSizeX*ms)||Math.abs(y-0.5)>Math.round(fieldSizeY*ms))
+for (y=-ms; y<ms+1; y++) {
+  for (x=-ms; x<ms; x++) {
+    if (Math.abs(x+0.5)>Math.round(fieldSizeX*ms)||Math.abs(y-0.5)>Math.round(fieldSizeY*ms))
       map = map+"9"
     else map = map+" ";
   }
@@ -45,7 +56,6 @@ for(y=-ms;y<ms+1;y++){
 }
 
 this.options = {
-  // see documentation for options reference
   //root_mode: "survival",
   weapons_store:false,
   friendly_colors:10,
@@ -84,18 +94,16 @@ teams.push({name:"Blue",goal:[map_size*fieldSizeX*goalPos,0],hue:180,color:"#000
 
 score = [0,0]
 
-log = function(s){
+log = function(s) {
   game.modding.terminal.echo(s);
 }
 
-distance = function(x, y){
+distance = function(x, y) {
   return Math.sqrt(x*x+y*y);
 };
 
-shortestPath = function(x1, y1, x2, y2){
-  
+shortestPath = function(x1, y1, x2, y2) {
   shortestDist = 10000;
-  
   
   coords = [];
   
@@ -137,16 +145,14 @@ shortestPath = function(x1, y1, x2, y2){
   yy = y2-map_size*2-y1;
   coords.push(xx, yy);
   
-  for(var i = 0; i<9; i++){
+  for (var i = 0; i<9; i++) {
     dist = distance(coords[i*2], coords[i*2+1]);
-    if(dist<shortestDist){
+    if (dist<shortestDist) {
       shortestDist = dist;
       shortest = [coords[i*2], coords[i*2+1]];
     }
   }
-  
   return shortest;
-  
 };
 
 goal1 = {
@@ -299,11 +305,11 @@ matchTick = function(){
   scoreComps = [];
   highestScore = 0;
   highestScoreTeams = [];
-  for(t=0;t<teams.length;t++){
-    if(matchTimer<0&&score[t]>highestScore){
+  for (t=0;t<teams.length;t++) {
+    if (matchTimer<0&&score[t]>highestScore) {
       highestScoreTeams = [t];
       highestScore = score[t];
-    }else if(matchTimer<0&&score[t]==highestScore){
+    } else if (matchTimer<0&&score[t]==highestScore) {
       highestScoreTeams.push(t);
     }
     pos = (100/teams.length)*(t)
@@ -313,22 +319,22 @@ matchTick = function(){
    
   }
   
-  if(matchTimer<0){
-    if(highestScoreTeams.length>1){
+  if (matchTimer<0) {
+    if (highestScoreTeams.length>1) {
       text = "Draw between "
-      for(t=0;t<highestScoreTeams.length;t++){
-        if(t==highestScoreTeams.length-1)
+      for (t=0;t<highestScoreTeams.length;t++) {
+        if (t==highestScoreTeams.length-1)
         text = text + teams[highestScoreTeams[t]].name
         else
-        if(t==highestScoreTeams.length-2)
+        if (t==highestScoreTeams.length-2)
         text = text + teams[highestScoreTeams[t]].name + " and "
         else
         text = text + teams[highestScoreTeams[t]].name +", "
       }
       
-    }else text = teams[highestScoreTeams[0]].name+" won!"
+    } else text = teams[highestScoreTeams[0]].name+" won!"
     
-    for(i=1;i<game.ships.length;i++){
+    for (i=1;i<game.ships.length;i++) {
       ship = game.ships[i];
       ship.setUIComponent({
       id:"timeLeft",
@@ -336,7 +342,7 @@ matchTick = function(){
       clickable: false,
       visible: true,
       components: [
-        { type: "text",position:[10,10,80,30],value:text,color:"#CDE"}
+        { type: "text", position: [10,10,80,30], value: text, color: "#CDE"}
       ]
       });
     }
@@ -554,28 +560,26 @@ awaitingNextMatch = function(){
     }
   }
   
-  if(game.ships.length-1<playersNeeded)matchTimer = betweenmatchesdelay;
+  if (game.ships.length-1<playersNeeded)matchTimer = betweenmatchesdelay;
   
   matchTimer--;
   
-  if(matchTimer<0)
+  if (matchTimer<0)
     startMatch();
 }
 
 this.tick = function(game) {
-  if(game.ships.length<1)return;
+  if (game.ships.length<1)return;
   // do mod stuff here ; see documentation
   
-  if(matchinprogress){
-    if(game.step%60==0){
+  if (matchinprogress) {
+    if (game.step%60==0) {
       matchTick();
     }
-    if(goalTimer<0)
+    if (goalTimer<0)
       checkGoals();
-  }else{
-    if(game.step%60==0)
+  } else {
+    if (game.step%60==0)
     awaitingNextMatch();
   }
-  
-  
 }
