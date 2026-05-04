@@ -1,10 +1,14 @@
-// WELCOME TO THE GREATEST STARBLAST MOD EVER MADE
-
-// PLEASE FORGET EVERY CRINGY THING YOU SEE BELOW
-
-// ENJOY WASTING YOUR TIME
-
-
+/*̅‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾̅‾
+____________________________________________________
+ ╭─╮╭─╴╭─╴   ╭─╴╷  ╷╭─╴╭╮╷╶┬╴   ╭┬╮╭─╮╶┬╮╶┬╮╷╭╮╷╭─╴
+ ├─┤│  ├╴    │  │  │├╴ │╰┤ │    ││││ │ ││ ││││╰┤│╶╮
+ ╵ ╵╰─╴╰─╴   ╰─╴╰─╴╵╰─╴╵ ╵ ╵    ╵ ╵╰─╯╶┴╯╶┴╯╵╵ ╵╰─╯ 
+‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+ > City Mod
+ > Nexagon
+ > 1.0.0
+____________________________________________________
+̲*/
 
 var boi_101 = '{"name":"boi","level":1,"model":1,"size":1.5,"specs":{"shield":{"capacity":[80,110],"reload":[3,4]},"generator":{"capacity":[80,160],"reload":[40,60]},"ship":{"mass":50,"speed":[60,115],"rotation":[40,80],"acceleration":[150,180]}},"bodies":{"main":{"section_segments":8,"offset":{"x":0,"y":-30,"z":-10},"position":{"x":[0,0,0,0,0,0],"y":[0,-10,80,90,110,110],"z":[0,0,0,0,0,0]},"width":[0,10,33,11,0],"height":[0,5,23,15,0],"texture":[63,63,63,63],"propeller":true,"vertical":true},"cockpit":{"section_segments":8,"offset":{"x":0,"y":-70,"z":80},"position":{"x":[0,0,0,0],"y":[30,60,120],"z":[-6,0,-9]},"width":[7.5,15,7.5],"height":[0,12,0],"texture":[9]},"uwings":{"section_segments":8,"offset":{"x":15,"y":-50,"z":-10},"position":{"x":[0,0,0,0,0,0],"y":[-52.94117647058824,-58.82352941176471,23.529411764705884,47.05882352941177,52.94117647058824,58.82352941176471],"z":[0,0,0,0,0,0]},"width":[0,5.882352941176471,14.705882352941178,11.764705882352942,0],"height":[0,2.9411764705882355,14.705882352941178,11.764705882352942,0],"texture":[63,4,63,63],"vertical":true},"cannons":{"section_segments":12,"offset":{"x":20,"y":-5,"z":40},"position":{"x":[0,0,0,0,0,0,0],"y":[-60,-70,-20,0,15,30,35],"z":[0,0,0,0,0,0,0]},"width":[0,5,6,10,15,5,0],"height":[0,5,5,10,10,5,0],"angle":0,"laser":{"damage":[7,13],"rate":2,"type":2,"speed":[110,210],"recoil":0,"number":1,"error":0},"propeller":false,"texture":[6,6,6,63,63,63]},"side_propulsors":{"section_segments":10,"offset":{"x":15,"y":-10,"z":-105},"position":{"x":[0,0,0,0,0,0,0],"y":[0,10,13,25,30,40,60,50],"z":[0,0,0,0,0,0,0,0]},"width":[0,5,10,10,10,5,5,10,5,0],"height":[0,5,10,10,10,5,5,10,5,0],"propeller":true,"texture":[5,2,11,2,63,11,12]}},"typespec":{"name":"boi","level":1,"model":1,"code":101,"specs":{"shield":{"capacity":[80,110],"reload":[3,4]},"generator":{"capacity":[80,160],"reload":[40,60]},"ship":{"mass":50,"speed":[60,115],"rotation":[40,80],"acceleration":[150,180]}},"shape":[1.202,1.221,2.366,2.372,1.791,1.426,1.211,1.072,1.003,0.955,0.926,0.918,0.95,0.999,1.071,1.092,1.063,1.043,1.054,1.065,1.103,1.387,1.613,1.577,1.517,1.503,1.517,1.577,1.613,1.387,1.103,1.065,1.054,1.043,1.063,1.092,1.071,0.999,0.95,0.918,0.926,0.955,1.003,1.072,1.211,1.426,1.791,2.372,2.366,1.221],"lasers":[{"x":0.6,"y":-2.25,"z":1.2,"angle":0,"damage":[7,10],"rate":2,"type":2,"speed":[110,210],"number":1,"spread":0,"error":0,"recoil":0},{"x":-0.6,"y":-2.25,"z":1.2,"angle":0,"damage":[7,10],"rate":2,"type":2,"speed":[110,210],"number":1,"spread":0,"error":0,"recoil":0}],"radius":2.372}}';
 var Man_201 = '{"name":"Man","level":2,"model":1,"size":1.6,"specs":{"shield":{"capacity":[130,155],"reload":[5,6]},"generator":{"capacity":[80,160],"reload":[40,60]},"ship":{"mass":120,"speed":[90,135],"rotation":[90,110],"acceleration":[110,180]}},"bodies":{"main":{"section_segments":8,"offset":{"x":0,"y":0,"z":-10},"position":{"x":[0,0,0,0,0,0],"y":[0,-10,90,100,90,100],"z":[0,0,0,0,0,0]},"width":[0,10,23,10,0],"height":[0,5,23,10,0],"texture":[63,63,13,17],"propeller":false,"vertical":true},"cockpit":{"section_segments":8,"offset":{"x":0,"y":-50,"z":110},"position":{"x":[0,0,0,0],"y":[37.5,60,120],"z":[-6,0,-9]},"width":[7.5,22.5,7.5],"height":[0,12,0],"texture":[9]},"uwings":{"section_segments":8,"offset":{"x":15,"y":-20,"z":-10},"position":{"x":[0,0,-5,-10,-10,-10],"y":[-56.25,-62.5,25,50,56.25,62.5],"z":[0,0,0,0,0,0]},"width":[0,6.25,15.625,12.5,0],"height":[0,3.125,15.625,12.5,0],"texture":[7,7,63,63],"vertical":true},"cannon1":{"section_segments":12,"offset":{"x":0,"y":20,"z":80},"position":{"x":[-25,-25,-25,-25,-25,-25,-25],"y":[-60,-70,-20,0,10,30,32],"z":[0,0,0,0,0,0,0]},"width":[0,5,6,15,15,8,0],"height":[0,5,5,10,10,5,0],"angle":0,"laser":{"damage":[20,23],"rate":0.4,"type":2,"speed":[150,210],"recoil":30,"number":1,"error":0},"propeller":false,"texture":[6,6,63,63,63,63]},"cannon2":{"section_segments":12,"offset":{"x":0,"y":20,"z":80},"position":{"x":[25,25,25,25,25,25,25],"y":[-40,-50,-10,-5,0,20,22],"z":[0,0,0,0,0,0,0]},"width":[0,3.846153846153846,4.615384615384615,11.538461538461538,11.538461538461538,6.153846153846153,0],"height":[0,3.846153846153846,3.846153846153846,7.692307692307692,7.692307692307692,3.846153846153846,0],"angle":0,"laser":{"damage":[7,9],"rate":1,"type":1,"speed":[190,220],"recoil":0,"number":1,"error":0},"propeller":false,"texture":[6,6,63,63,63,63]},"side_propulsors":{"section_segments":10,"offset":{"x":15,"y":-15,"z":-75},"position":{"x":[0,0,0,0,0,0,0],"y":[-10,-5,13,25,30,40,50,40],"z":[0,0,0,0,0,0,0,0]},"width":[0,5,10,10,10,5,5,10,5,0],"height":[0,5,10,10,10,5,5,10,5,0],"propeller":true,"texture":4}},"typespec":{"name":"Man","level":2,"model":1,"code":201,"specs":{"shield":{"capacity":[130,155],"reload":[5,6]},"generator":{"capacity":[80,160],"reload":[40,60]},"ship":{"mass":120,"speed":[90,135],"rotation":[90,110],"acceleration":[110,180]}},"shape":[0.416,0.407,0.42,0.442,0.933,1.246,1.332,1.261,1.143,1.063,1.001,0.965,0.946,0.951,0.974,1.2,1.333,1.386,1.469,1.587,1.622,1.575,1.45,1.832,2.253,2.244,2.253,1.832,1.833,1.905,1.917,1.78,1.667,1.581,1.459,1.295,1.154,1.057,0.996,1.016,1.057,1.114,1.205,1.334,1.517,1.785,1.866,1.768,0.42,0.407],"lasers":[{"x":-0.8,"y":-1.6,"z":2.56,"angle":0,"damage":[25,28],"rate":1,"type":2,"speed":[150,210],"number":1,"spread":0,"error":0,"recoil":30},{"x":0.8,"y":-0.96,"z":2.56,"angle":0,"damage":[7,9],"rate":5,"type":1,"speed":[190,220],"number":1,"spread":0,"error":0,"recoil":0}],"radius":2.253}}';
@@ -26,25 +30,16 @@ var President_701 = '{"name":"President","level":7,"model":1,"size":1.5,"specs":
 var Presidentt_702 = '{"name":"Presidentt","level":7,"model":2,"size":1.5,"specs":{"shield":{"capacity":[505,515],"reload":[14,17]},"generator":{"capacity":[350,450],"reload":[140,150]},"ship":{"mass":200,"speed":[125,130],"rotation":[170,190],"acceleration":[160,170]}},"bodies":{"main":{"section_segments":8,"offset":{"x":0,"y":0,"z":-10},"position":{"x":[0,0,0,0,0,0],"y":[0,60,80,90,120,130],"z":[0,0,0,0,0,0]},"width":[10,15,40,10,0],"height":[10,15,30,10,0],"texture":[63,63,63,6],"propeller":false,"vertical":true},"cockpit":{"section_segments":8,"offset":{"x":0,"y":-70,"z":110},"position":{"x":[0,0,0,0],"y":[15,82.5,135],"z":[-6,0,-9]},"width":[7.5,22.5,12],"height":[0,12,0],"texture":[9]},"uwings":{"section_segments":8,"offset":{"x":15,"y":-20,"z":-10},"position":{"x":[0,0,-5,-10,-10,-10],"y":[-56.25,-62.5,25,50,56.25,62.5],"z":[0,0,0,0,0,0]},"width":[0,3.125,12.5,12.5,0],"height":[0,7.5,15.625,12.5,0],"texture":[7,7,63,63],"vertical":true},"cannon1":{"section_segments":12,"offset":{"x":30,"y":14,"z":75},"position":{"x":[0,0,0,0,0,0,0],"y":[-30,-80,-20,0,10,26,28],"z":[0,0,0,0,0,0,0]},"width":[0,5,6,15,15,8,0],"height":[0,5,5,10,10,5,0],"angle":0,"laser":{"damage":[100,150],"rate":1,"type":1,"speed":[190,220],"recoil":100,"number":1,"error":0},"propeller":false,"texture":[6,6,63,63,63,63]},"side_propulsors":{"section_segments":6,"offset":{"x":15,"y":-15,"z":-75},"position":{"x":[0,0,0,0,0,0,0],"y":[-10,-5,13,25,30,40,50,40],"z":[0,0,0,0,0,0,0,0]},"width":[0,5,10,10,10,8,8,8,10,0],"height":[0,5,10,10,10,5,5,10,10,0],"propeller":true,"texture":4}},"typespec":{"name":"Presidentt","level":7,"model":2,"code":702,"specs":{"shield":{"capacity":[515,515],"reload":[17,17]},"generator":{"capacity":[450,450],"reload":[150,150]},"ship":{"mass":200,"speed":[130,130],"rotation":[190,190],"acceleration":[170,170]}},"shape":[1.653,1.665,1.453,2.188,2.241,1.964,1.661,1.455,1.321,1.218,1.153,1.112,1.158,1.238,1.355,1.452,1.531,1.561,1.617,1.655,1.597,1.456,1.49,1.953,1.983,1.954,1.983,1.953,1.49,1.456,1.597,1.655,1.617,1.561,1.531,1.452,1.355,1.238,1.161,1.112,1.153,1.218,1.321,1.455,1.661,1.964,2.241,2.188,1.453,1.665],"lasers":[{"x":0.9,"y":-1.98,"z":2.25,"angle":0,"damage":[100,150],"rate":1,"type":1,"speed":[190,220],"number":1,"spread":0,"error":0,"recoil":100},{"x":-0.9,"y":-1.98,"z":2.25,"angle":0,"damage":[100,100],"rate":0.6,"type":1,"speed":[190,220],"number":1,"spread":0,"error":0,"recoil":100}],"radius":2.241}}';
 
 var ships = [];
-                                    //tiers:
-              //1
+
 ships.push(boi_101);
-                         //2
 ships.push(Man_201,Mann_202);
-                                //3
 ships.push(Hitman_301,Hitmann_302);
-                             //4
 ships.push(Thief_401,Thieff_402);
-              //5
 ships.push(Manager_501,Managerr_502);
-                    //6
 ships.push(Boss_601,Bosss_602);
-                         //7
 ships.push(President_701,Presidentt_702);
-                    //8
 ships.push(Y_Defender_791);
 
-                                     //Chat:
 var vocabulary = [
       { text: "Hello", icon:"\u0045", key:"L" },
       { text: "Yes", icon:"\u004c", key:"Y" },
@@ -68,7 +63,7 @@ var vocabulary = [
       { text: "and", icon:"\u{0037}", key:"V" },
       { text: "Bad", icon:"\u{005b}", key:"W" }
 ];
-                                       //map:
+
 var map = 
 "69999999999999999999999999999999999999699999999996\n"+
 "99999999999999999999999999999999999999699999999999\n"+
@@ -120,31 +115,27 @@ var map =
 "999 999999                  3            9     999\n"+
 "99969999999999999999999999999999999999999999999999\n"+
 "99966666666666666666666666666666666666699999999999\n"+
-"69999999999999999999999999999999999999699999999996" ; //50
+"69999999999999999999999999999999999999699999999996";
 
- this.options = { //UPDATE MAP NAME WHEN NEW TIER OR FEATURE!!!!!!!!!!!!!!!!!!!!!
-  root_mode: "unespecified", //UPDATE MAP NAME WHEN NEW TIER OR FEATURE!!!!!!!!!!!!!!!!!!!!!
-  ships: ships,
+ this.options = {
+	root_mode: "unespecified",
+	ships: ships,
 	vocabulary: vocabulary,
-  starting_ship: 101,
-  survival_time: 666666666666666666666666666666666666666666,
-  max_Level: 6,
-  asteroids_strength: 5,
-  auto_refill: true,
-  map_size: 50,                     //UPDATE WHEN NEW TIER OR FEATURE!!!!!!!!!!!!!!!!!!!!!
-  map_name: 'City mod v1.0', //UPDATE WHEN NEW TIER OR FEATURE!!!!!!!!!!!!!!!!!!!!!
-  lives: 5,                       //UPDATE WHEN NEW TIER OR FEATURE!!!!!!!!!!!!!!!!!!!!!
-  custom_map: map,
-  map_id: 1234,
-  survival_level:8,
-  reset_tree: true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, //true, //false, 
-  weapon_drop:100,
-  crystal_value:1,
-  mines_self_destroy: false,
-  starting_ship_maxed: false,
-  weapons_store: false,
-  choose_ship: [101],
-  max_level: 8,
+	starting_ship: 101,
+	max_Level: 6,
+	asteroids_strength: 5,
+	auto_refill: true,
+	map_size: 50,
+	map_name: 'City mod v1.0',
+	custom_map: map,
+	map_id: 1234,
+	survival_level: 8,
+	reset_tree: true,
+	weapon_drop: 100,
+	mines_self_destroy: false,
+	starting_ship_maxed: false,
+	weapons_store: false,
+	choose_ship: [101],
 };
 
 randint = function(max) {
