@@ -1,7 +1,15 @@
-/*******************************************************************************************************
------                                A-Speedster Series V.ACECLIENT                                -----
------ AUTHORS: Neuronality, Finalizer, SChickenMan, 45rfew, Bhpsngum, Aerial 0770, Torque, ASC-095 -----
-*******************************************************************************************************/
+/*̅‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾̅‾
+____________________________________________________
+ ╭─╮╭─╴╭─╴   ╭─╴╷  ╷╭─╴╭╮╷╶┬╴   ╭┬╮╭─╮╶┬╮╶┬╮╷╭╮╷╭─╴
+ ├─┤│  ├╴    │  │  │├╴ │╰┤ │    ││││ │ ││ ││││╰┤│╶╮
+ ╵ ╵╰─╴╰─╴   ╰─╴╰─╴╵╰─╴╵ ╵ ╵    ╵ ╵╰─╯╶┴╯╶┴╯╵╵ ╵╰─╯ 
+‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+ > A-Speedster Series
+ > Neuronality, Finalizer, SChickenMan, 45rfew,
+ Bhpsngum, Aerial 0770, Torque, ASC-095
+ > 1.0.0
+____________________________________________________
+̲*/
 
 var ships = [];
 
@@ -82,20 +90,11 @@ ships.push(Shadow_Speedster_X_3_702);
 ships.push(S_Speedster_703);
 ships.push(Scorpion_Speedster_704);
 
-this.options = {
- root_mode: "survival",
- starting_ship: 101,
- starting_ship_maxed: true,
- ships: ships,
- reset_tree: true,
- radar_zoom: 2,
- 
- crystal_value: 1,
- asteroids_strength: 1,
-};
+this.options = {};
  
 this.tick = function(game) {};
 
+//- Background props ---------------
 var aspeedsterobj = {
   id: "aspeedsterobj",
   obj: "https://raw.githubusercontent.com/ASC-027/Starblast-A-Speedster-Series-v1.4/main/obj%20exports/aspeedster.obj",
