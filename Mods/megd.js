@@ -1,18 +1,14 @@
-/*
-
- |  Mod creator : Megalodon
- |  Coding support : Lotus, Bhpsngum
-
-# Changed the leaderboard scale, optimization and the color update system.
-  => it can now show 9 players, gives less lag, and ign event are not the first color to apear.
-  => Fixed the leaderboard
-# updated the AFK checker.
-# Fixed the bug where you couldn't load the game
-
-See the documentation on the github page for more information about the mod and its integrated commands.
-GitHub: https://github.com/TheGreatMegalodon/Megalodon-s-dueling-code
-
-*/
+/*̅‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾̅‾
+____________________________________________________
+ ╭─╮╭─╴╭─╴   ╭─╴╷  ╷╭─╴╭╮╷╶┬╴   ╭┬╮╭─╮╶┬╮╶┬╮╷╭╮╷╭─╴
+ ├─┤│  ├╴    │  │  │├╴ │╰┤ │    ││││ │ ││ ││││╰┤│╶╮
+ ╵ ╵╰─╴╰─╴   ╰─╴╰─╴╵╰─╴╵ ╵ ╵    ╵ ╵╰─╯╶┴╯╶┴╯╵╵ ╵╰─╯ 
+‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+ > Meg's Dueling
+ > Megalodon, Lotus, Bhpsngum
+ > 1.4.2
+____________________________________________________
+̲*/
 
 var gameOptions = {
   Copyright: "©Megalodon 2023-2024",
