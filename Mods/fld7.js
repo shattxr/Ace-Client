@@ -1,9 +1,14 @@
-/**
- *      Flintlock Dueling Light
- *      a mod by Nanoray
- *      version - Tier 7 Madness v1.9.3 (https://discord.gg/JVSS8na4eW)
- *      Contact on Discord - h.alcyon / deverxander
-*/
+/*̅‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾̅‾
+____________________________________________________
+ ╭─╮╭─╴╭─╴   ╭─╴╷  ╷╭─╴╭╮╷╶┬╴   ╭┬╮╭─╮╶┬╮╶┬╮╷╭╮╷╭─╴
+ ├─┤│  ├╴    │  │  │├╴ │╰┤ │    ││││ │ ││ ││││╰┤│╶╮
+ ╵ ╵╰─╴╰─╴   ╰─╴╰─╴╵╰─╴╵ ╵ ╵    ╵ ╵╰─╯╶┴╯╶┴╯╵╵ ╵╰─╯ 
+‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+ > Flintlock Dueling Light [T7M]
+ > Nanoray
+ > 1.9.3
+____________________________________________________
+̲*/
 
 const VERSION = "T7M v1.9.3";
 const STARTING_SHIP = "601"; // name, code number, empty/zero/null, "Spectator"
