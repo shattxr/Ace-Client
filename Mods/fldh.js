@@ -1,9 +1,14 @@
-/**
- *                                        Flintlock  dueling
- *                                         A mod by Nanoray
- * 
- *                                  Contact on Discord - h.alcyon
- */
+/*̅‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾̅‾
+____________________________________________________
+ ╭─╮╭─╴╭─╴   ╭─╴╷  ╷╭─╴╭╮╷╶┬╴   ╭┬╮╭─╮╶┬╮╶┬╮╷╭╮╷╭─╴
+ ├─┤│  ├╴    │  │  │├╴ │╰┤ │    ││││ │ ││ ││││╰┤│╶╮
+ ╵ ╵╰─╴╰─╴   ╰─╴╰─╴╵╰─╴╵ ╵ ╵    ╵ ╵╰─╯╶┴╯╶┴╯╵╵ ╵╰─╯ 
+‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+ > Flintlock Dueling Lite [Vanilla]
+ > Nanoray homigay edition
+ > 1.1
+____________________________________________________
+̲*/
 
 const _ALLOW_LEGACY_TURN = true;
 
@@ -198,8 +203,8 @@ const VOCABULARY = [
     {text: "Yes",       icon: "\u004c", key: "Y"},
     // 2
     {text: "No",        icon: "\u004d", key: "N"},
-    {text: "HOMIXIDE",     icon: "🔥", key: "H"},
-    {text: "strxvrlght",     icon: "🏳️‍🌈", key: "S"},
+    {text: "monkexide", icon: "🏳️‍🌈", key: "H"},
+    {text: "STXRLVGHT", icon: "🔥", key: "S"},
     {text: "My ship",   icon: "\u0061", key: "M"},
     // 3
     {text: "Attack",    icon: "\u0049", key: "A"},
