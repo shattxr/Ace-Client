@@ -1,6 +1,14 @@
-/***************************************
------     ODDY MOD V.ACECLIENT     -----
-***************************************/
+/*̅‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾̅‾
+____________________________________________________
+ ╭─╮╭─╴╭─╴   ╭─╴╷  ╷╭─╴╭╮╷╶┬╴   ╭┬╮╭─╮╶┬╮╶┬╮╷╭╮╷╭─╴
+ ├─┤│  ├╴    │  │  │├╴ │╰┤ │    ││││ │ ││ ││││╰┤│╶╮
+ ╵ ╵╰─╴╰─╴   ╰─╴╰─╴╵╰─╴╵ ╵ ╵    ╵ ╵╰─╯╶┴╯╶┴╯╵╵ ╵╰─╯ 
+‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+ > Oddy Mod
+ > cinnamon bun
+ > 1.0.0
+____________________________________________________
+̲*/
 
 var ships = [];
 
@@ -68,53 +76,4 @@ ships.push(Dreadnought_Odyssey_702);
 ships.push(Missionary_703);
 ships.push(X_Oddy_704);
 
-this.options = {
-  root_mode: "survival",
-  
-  ships: ships,
-  reset_tree: true,
-  
-  crystal_value: 1,
-  asteroids_strength: 1,
-};
-
-var reset_button = {
-  id: "reset",
-  position: [5,30,8,14],
-  clickable: true,
-  shortcut: "J",
-  visible: true,
-  components: [
-    { type: "box",  position: [0,0,100,100], stroke: "#CDE", width: 2 },
-    { type: "text", position: [10,35,80,30], color: "#CDE", value: "RESET" },
-    { type: "text", position: [20,70,60,20], color: "#CDE", value: "[J]" }
-  ]
-};
-
-var resetShip = function(ship) {
-  ship.set({type:101, crystals: 20}) ;
-};
-this.tick = function(game) {
-  if (game.step%60 === 0) {
-    for (var i = 0; i < game.ships.length; i++) {
-      var ship = game.ships[i];
-      if (!ship.custom.reset_button_installed) {
-        ship.custom.reset_button_installed = true;
-        ship.setUIComponent(reset_button);
-      }
-    }
-  }
-};
-
-
-this.event = function(event,game) {
-  switch (event.name) {
-    case "ui_component_clicked":
-      var ship = event.ship ;
-      var component = event.id ;
-      if (component == "reset") {
-        resetShip(ship);
-      }
-    break;
-  }
-};
+this.options = {};
