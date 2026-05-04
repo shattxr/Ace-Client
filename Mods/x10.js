@@ -1,3 +1,15 @@
+/*̅‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾̅‾
+____________________________________________________
+ ╭─╮╭─╴╭─╴   ╭─╴╷  ╷╭─╴╭╮╷╶┬╴   ╭┬╮╭─╮╶┬╮╶┬╮╷╭╮╷╭─╴
+ ├─┤│  ├╴    │  │  │├╴ │╰┤ │    ││││ │ ││ ││││╰┤│╶╮
+ ╵ ╵╰─╴╰─╴   ╰─╴╰─╴╵╰─╴╵ ╵ ╵    ╵ ╵╰─╯╶┴╯╶┴╯╵╵ ╵╰─╯ 
+‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+ > Meme X10 Mod
+ > Spedry
+ > 2.0.0
+____________________________________________________
+̲*/
+
 var Mosquito_101 = '{"name":"Mosquito","level":1,"model":1,"size":1,"specs":{"shield":{"capacity":[225,300],"reload":[6,9]},"generator":{"capacity":[400,600],"reload":[100,150]},"ship":{"mass":6,"speed":[416.6666666666667,483.3333333333333],"rotation":[110,130],"acceleration":[100,120]}},"bodies":{"main":{"section_segments":12,"offset":{"x":0,"y":0,"z":10},"position":{"x":[0,0,0,0,0,0,0,0,0,0],"y":[-65,-60,-50,-20,10,30,55,75,60],"z":[0,0,0,0,0,0,0,0,0]},"width":[0,8,10,30,25,30,18,15,0],"height":[0,6,8,12,20,20,18,15,0],"propeller":true,"texture":[4,63,10,1,1,1,12,17]},"cockpit":{"section_segments":12,"offset":{"x":0,"y":0,"z":20},"position":{"x":[0,0,0,0,0,0,0],"y":[-15,0,20,30,60],"z":[0,0,0,0,0]},"width":[0,13,17,10,5],"height":[0,18,25,18,5],"propeller":false,"texture":[7,9,9,4,4]},"cannon":{"section_segments":6,"offset":{"x":0,"y":-15,"z":-10},"position":{"x":[0,0,0,0,0,0],"y":[-40,-50,-20,0,20,30],"z":[0,0,0,0,0,20]},"width":[0,5,8,11,7,0],"height":[0,5,8,11,10,0],"angle":0,"laser":{"damage":[50,60],"rate":4,"type":1,"speed":[160,180],"number":1,"error":2.5},"propeller":false,"texture":[3,3,10,3]}},"wings":{"main":{"length":[60,20],"width":[100,50,40],"angle":[-10,10],"position":[0,20,10],"doubleside":true,"offset":{"x":0,"y":10,"z":5},"bump":{"position":30,"size":20},"texture":[11,63]}},"typespec":{"name":"Mosquito","level":1,"model":1,"code":101,"specs":{"shield":{"capacity":[225,300],"reload":[6,9]},"generator":{"capacity":[400,600],"reload":[100,150]},"ship":{"mass":6,"speed":[416.6666666666667,483.3333333333333],"rotation":[110,130],"acceleration":[100,120]}},"shape":[1.303,1.303,1.041,0.919,0.841,0.788,0.753,0.73,0.722,0.74,0.807,0.906,1.04,1.587,1.626,1.692,1.767,1.74,1.661,1.607,1.452,1.348,1.272,1.53,1.527,1.503,1.527,1.53,1.272,1.348,1.452,1.607,1.661,1.74,1.767,1.692,1.626,1.587,1.576,0.906,0.807,0.74,0.722,0.73,0.753,0.788,0.841,0.919,1.041,1.303],"lasers":[{"x":0,"y":-1.3,"z":-0.2,"angle":0,"damage":[50,60],"rate":4,"type":1,"speed":[160,180],"number":1,"spread":0,"error":2.5,"recoil":0}],"radius":1.767}}';
 var El_Mosco_102 = '{"name":"El Mosco","level":1,"model":2,"size":4,"specs":{"shield":{"capacity":[1000,1500],"reload":[20,30]},"generator":{"capacity":[400,600],"reload":[150,200]},"ship":{"mass":300,"speed":[100,125],"rotation":[110,130],"acceleration":[100,120]}},"bodies":{"main":{"section_segments":12,"offset":{"x":0,"y":0,"z":10},"position":{"x":[0,0,0,0,0,0,0,0,0,0],"y":[-65,-60,-50,-20,10,30,55,75,60],"z":[0,0,0,0,0,0,0,0,0]},"width":[0,8,10,30,25,30,18,15,0],"height":[0,6,8,12,20,20,18,15,0],"propeller":true,"texture":[4,63,10,1,1,1,12,17]},"cockpit":{"section_segments":12,"offset":{"x":0,"y":0,"z":20},"position":{"x":[0,0,0,0,0,0,0],"y":[-15,0,20,30,60],"z":[0,0,0,0,0]},"width":[0,13,17,10,5],"height":[0,18,25,18,5],"propeller":false,"texture":[7,9,9,4,4]},"cannon":{"section_segments":6,"offset":{"x":0,"y":-15,"z":-10},"position":{"x":[0,0,0,0,0,0],"y":[-40,-50,-20,0,20,30],"z":[0,0,0,0,0,20]},"width":[0,5,8,11,7,0],"height":[0,5,8,11,10,0],"angle":0,"laser":{"damage":[120,180],"rate":3,"type":1,"speed":[140,160],"number":1,"error":2.5},"propeller":false,"texture":[3,3,10,3]}},"wings":{"main":{"length":[60,20],"width":[100,50,40],"angle":[-10,10],"position":[0,20,10],"doubleside":true,"offset":{"x":0,"y":10,"z":5},"bump":{"position":30,"size":20},"texture":[11,63]}},"typespec":{"name":"El Mosco","level":1,"model":2,"code":102,"specs":{"shield":{"capacity":[1000,1500],"reload":[20,30]},"generator":{"capacity":[400,600],"reload":[150,200]},"ship":{"mass":300,"speed":[100,125],"rotation":[110,130],"acceleration":[100,120]}},"shape":[5.21,5.212,4.162,3.676,3.364,3.151,3.011,2.921,2.887,2.959,3.227,3.622,4.16,6.349,6.503,6.767,7.069,6.96,6.644,6.426,5.808,5.392,5.086,6.119,6.108,6.012,6.108,6.119,5.086,5.392,5.808,6.426,6.644,6.96,7.069,6.767,6.503,6.349,6.303,3.622,3.227,2.959,2.887,2.921,3.011,3.151,3.364,3.676,4.162,5.212],"lasers":[{"x":0,"y":-5.2,"z":-0.8,"angle":0,"damage":[120,180],"rate":3,"type":1,"speed":[140,160],"number":1,"spread":0,"error":2.5,"recoil":0}],"radius":7.069}}';
 
@@ -569,7 +581,7 @@ this.event = modUtils.handleUIPress;
 this.options = {
   map_size: 150,
   //custom_map: map,
-  map_name: modUtils.cheatMode? "Spedry Modding" : "Vanilla X10",
+  map_name: modUtils.cheatMode? "Spedry Modding" : "Ace Modding - Vanilla X10",
   max_players: 30,
   vocabulary: modUtils.vocabulary,
   station_regeneration: 2,
