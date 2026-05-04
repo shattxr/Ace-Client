@@ -1,6 +1,14 @@
-/***************************************
------     H-SERIES V.ACECLIENT     -----
-***************************************/
+/*̅‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾̅‾
+____________________________________________________
+ ╭─╮╭─╴╭─╴   ╭─╴╷  ╷╭─╴╭╮╷╶┬╴   ╭┬╮╭─╮╶┬╮╶┬╮╷╭╮╷╭─╴
+ ├─┤│  ├╴    │  │  │├╴ │╰┤ │    ││││ │ ││ ││││╰┤│╶╮
+ ╵ ╵╰─╴╰─╴   ╰─╴╰─╴╵╰─╴╵ ╵ ╵    ╵ ╵╰─╯╶┴╯╶┴╯╵╵ ╵╰─╯ 
+‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+ > H-Series
+ > Void, MGRocket
+ > 1.0.0
+____________________________________________________
+̲*/
 
 var H_Mercury_101 = '{"name":"H-Mercury","level":1,"model":1,"size":1.7,"specs":{"shield":{"capacity":[250,350],"reload":[6,8]},"generator":{"capacity":[100,150],"reload":[45,65]},"ship":{"mass":275,"speed":[90,135],"rotation":[50,60],"acceleration":[65,100]}},"bodies":{"main":{"section_segments":8,"offset":{"x":0,"y":0,"z":20},"position":{"x":[0,0,0,0,0,0,0,0,0],"y":[-65,-70,-60,-40,0,50,110,100],"z":[0,0,0,0,0,0,0,0]},"width":[1,5,10,20,30,25,10,0],"height":[1,5,10,15,25,20,10,0],"texture":[6,4,4,63,11,63,12],"propeller":true,"laser":{"damage":[4,7],"rate":8,"type":1,"speed":[100,150],"number":1,"error":0}},"cockpit":{"section_segments":8,"offset":{"x":0,"y":-20,"z":35},"position":{"x":[0,0,0,0,0,0,0],"y":[-20,-10,0,15,25],"z":[0,0,0,0,0]},"width":[0,10,12,10,5],"height":[0,10,13,12,5],"texture":[9,9,4,4],"propeller":false},"arms":{"section_segments":8,"offset":{"x":60,"y":0,"z":-10},"position":{"x":[0,0,0,5,10,0,0,-10],"y":[-85,-70,-80,-30,0,30,100,90],"z":[0,0,0,0,0,0,0,0]},"width":[1,5,6,15,15,15,10,0],"height":[1,5,6,20,30,25,10,0],"texture":[6,4,4,4,4,4,12],"angle":1,"propeller":true,"laser":{"damage":[2,4],"rate":4,"type":1,"speed":[150,200],"number":1,"error":0}},"canon":{"section_segments":12,"offset":{"x":100,"y":27,"z":5},"position":{"x":[0,0,0,0,0,0,0],"y":[-50,-45,-20,0,20,30,40],"z":[0,0,0,0,0,0,0]},"width":[0,5,7,7,3,5,0],"height":[0,5,15,15,3,5,0],"angle":3,"laser":{"damage":[4,8],"rate":1,"type":1,"speed":[150,200],"number":1,"error":0},"propeller":false,"texture":[6,4,10,4,4,4]}},"wings":{"main":{"offset":{"x":0,"y":-15,"z":20},"length":[60,40],"width":[60,30,20],"angle":[-20,10],"position":[30,50,30],"texture":[11,11],"bump":{"position":30,"size":10}},"font":{"length":[60],"width":[20,15],"angle":[-10,20],"position":[-20,-40],"texture":[63],"bump":{"position":30,"size":10},"offset":{"x":0,"y":0,"z":0}},"font2":{"offset":{"x":0,"y":40,"z":8},"length":[60],"width":[20,15],"angle":[-10,20],"position":[20,40],"texture":[63],"bump":{"position":30,"size":10}}},"typespec":{"name":"H-Mercury","level":1,"model":1,"code":101,"specs":{"shield":{"capacity":[250,350],"reload":[6,8]},"generator":{"capacity":[100,150],"reload":[45,65]},"ship":{"mass":275,"speed":[90,135],"rotation":[50,60],"acceleration":[65,100]}},"shape":[2.385,2.386,2.001,1.731,1.548,3.528,3.469,3.221,3.056,2.95,2.895,3.544,3.572,3.642,3.751,3.832,4.109,4.151,3.409,3.854,4.179,4.024,3.046,2.936,3.755,3.747,3.755,2.936,3.046,4.024,4.179,3.854,3.409,4.151,4.109,3.832,3.751,3.642,3.572,3.544,2.895,2.95,3.056,3.221,3.469,3.528,1.548,1.731,2.001,2.386],"lasers":[{"x":0,"y":-2.38,"z":0.68,"angle":0,"damage":[4,7],"rate":8,"type":1,"speed":[100,150],"number":1,"spread":0,"error":0,"recoil":0},{"x":1.99,"y":-2.89,"z":-0.34,"angle":1,"damage":[2,4],"rate":4,"type":1,"speed":[150,200],"number":1,"spread":0,"error":0,"recoil":0},{"x":-1.99,"y":-2.89,"z":-0.34,"angle":-1,"damage":[2,4],"rate":4,"type":1,"speed":[150,200],"number":1,"spread":0,"error":0,"recoil":0},{"x":3.311,"y":-0.78,"z":0.17,"angle":3,"damage":[4,8],"rate":1,"type":1,"speed":[150,200],"number":1,"spread":0,"error":0,"recoil":0},{"x":-3.311,"y":-0.78,"z":0.17,"angle":-3,"damage":[4,8],"rate":1,"type":1,"speed":[150,200],"number":1,"spread":0,"error":0,"recoil":0}],"radius":4.179}}';
 
@@ -91,31 +99,8 @@ ships.push(UltraScorpion_704);
 ships.push(Sub_Atomic_705);
 ships.push(Spectator_707);
 
-var asteroidMaps = [9628, 116, 7656, 5438, 997, 4001, 9199, 3559];
-var mapCode = asteroidMaps[Math.floor(Math.random() * Math.floor(asteroidMaps.length))];
-
 this.options = {
-    root_mode: "survival",
-    
-    asteroids_strength: 1,
-    crystal_value: 1,
-    
-    healing_enabled: true,
-    reset_tree: true,
-    ships: ships,
-    starting_ship: 101,
-    
-    // map_id:              mapCode,
-    // map_size:            60,
-    
-    speed_mod: 1.25, // Don't change
-    
+    speed_mod: 1.25,
     station_crystal_capacity: 1.25,
     station_size: 2,
-    
-    starting_ship_maxed: true,
-    radar_zoom: 2,
-    map_name: "Ace Client H-Series",
-    
-    // hues: [0,240],
 };
