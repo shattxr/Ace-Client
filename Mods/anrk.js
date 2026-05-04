@@ -1,15 +1,19 @@
-/*Anarchy v1.5
-  by Malefic Machinations
-  
-  All ship edit code and mod exports from this mod are the property of Neuronality.
-  Credit for the work (rough percentage estimate) put into this mod go to:
-  MaleficArtist - 92%
-  123 Notus - 7.5%
-  Finalizer - 0.5%
-*/
-const mode = 0; //use values 0 or 1 to set the gamemode
-// 0 for team mode, regular anarchy gameplay
+/*̅‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾̅‾
+____________________________________________________
+ ╭─╮╭─╴╭─╴   ╭─╴╷  ╷╭─╴╭╮╷╶┬╴   ╭┬╮╭─╮╶┬╮╶┬╮╷╭╮╷╭─╴
+ ├─┤│  ├╴    │  │  │├╴ │╰┤ │    ││││ │ ││ ││││╰┤│╶╮
+ ╵ ╵╰─╴╰─╴   ╰─╴╰─╴╵╰─╴╵ ╵ ╵    ╵ ╵╰─╯╶┴╯╶┴╯╵╵ ╵╰─╯ 
+‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+ > Anarchy
+ > MaleficArtist
+ > 1.5
+____________________________________________________
+̲*/
+
+const mode = 0; // gamemode
+// 0 for teammode, regular gameplay
 // 1 for sandbox / showcasing
+
 var switch_button = {
   id: "switch",
   position: [3.5,31,8,14],
@@ -17,10 +21,10 @@ var switch_button = {
   shortcut: "V",
   visible: true,
   components: [
-    { type:  "box",position:[0,0,100,100],fill:"rgba(68, 85, 102, 0)",stroke:"rgba(204, 221, 238, 0.667)",width:2},
-    { type: "text",position:[10,23,80,30],value:"SWITCH",color:"rgba(204, 221, 238, 0.8)"},
-    { type: "text",position:[10,45,80,23],value:"SHIP",color:"rgba(204, 221, 238, 0.8)"},
-    { type: "text",position:[20,70,60,20],value:"[V]",color:"rgba(204, 221, 238, 0.8)"}
+    { type:  "box", position: [0,0,100,100], fill: "rgba(68, 85, 102, 0)", stroke: "rgba(204, 221, 238, 0.667)", width: 2},
+    { type: "text", position: [10,23,80,30], value: "SWITCH", color: "rgba(204, 221, 238, 0.8)"},
+    { type: "text", position: [10,45,80,23], value: "SHIP", color: "rgba(204, 221, 238, 0.8)"},
+    { type: "text", position: [20,70,60,20], value: "[V]", color: "rgba(204, 221, 238, 0.8)"}
     ]
 };
 
@@ -31,10 +35,10 @@ var stats_button = {
   shortcut: "B",
   visible: true,
   components: [
-    { type:  "box",position:[0,0,100,100],fill:"rgba(68, 85, 102, 0)",stroke:"rgba(204, 221, 238, 0.667)",width:2},
-    { type: "text",position:[10,23,80,30],value:"TOGGLE",color:"rgba(204, 221, 238, 0.8)"},
-    { type: "text",position:[10,45,80,23],value:"STATS",color:"rgba(204, 221, 238, 0.8)"},
-    { type: "text",position:[20,70,60,20],value:"[B]",color:"rgba(204, 221, 238, 0.8)"}
+    { type: "box",  position: [0,0,100,100], fill: "rgba(68, 85, 102, 0)", stroke: "rgba(204, 221, 238, 0.667)", width: 2},
+    { type: "text", position: [10,23,80,30], value: "TOGGLE", color: "rgba(204, 221, 238, 0.8)"},
+    { type: "text", position: [10,45,80,23], value: "STATS", color: "rgba(204, 221, 238, 0.8)"},
+    { type: "text", position: [20,70,60,20], value: "[B]", color: "rgba(204, 221, 238, 0.8)"}
     ]
 };
 
@@ -45,9 +49,9 @@ var reset_button = {
   shortcut: "R",
   visible: true,
   components: [
-    { type:  "box",position:[0,0,100,100],fill:"rgba(68, 85, 102, 0)",stroke:"rgba(204, 221, 238, 0.667)",width:2},
-    { type: "text",position:[10,34,80,25],value:"RESET",color:"rgba(204, 221, 238, 0.8)"},
-    { type: "text",position:[20,70,60,20],value:"[R]",color:"rgba(204, 221, 238, 0.8)"}
+    { type:  "box", position: [0,0,100,100], fill: "rgba(68, 85, 102, 0)", stroke: "rgba(204, 221, 238, 0.667)", width: 2},
+    { type: "text", position: [10,34,80,25], value: "RESET", color: "rgba(204, 221, 238, 0.8)"},
+    { type: "text", position: [20,70,60,20], value: "[R]", color: "rgba(204, 221, 238, 0.8)"}
     ]
 };
 
@@ -58,10 +62,10 @@ var crystals_button = {
   shortcut: "M",
   visible: true,
   components: [
-    { type:  "box",position:[0,0,100,100],fill:"rgba(68, 85, 102, 0)",stroke:"rgba(204, 221, 238, 0.667)",width:2},
-    { type: "text",position:[10,34,80,25],value:"CRYSTALS",color:"rgba(204, 221, 238, 0.8)"},
-    { type: "text",position:[20,70,60,20],value:"[M]",color:"rgba(204, 221, 238, 0.8)"}
-    ]
+    { type:  "box", position: [0,0,100,100], fill: "rgba(68, 85, 102, 0)", stroke: "rgba(204, 221, 238, 0.667)", width: 2},
+    { type: "text", position: [10,34,80,25], value: "CRYSTALS", color: "rgba(204, 221, 238, 0.8)"},
+    { type: "text", position: [20,70,60,20], value: "[M]", color: "rgba(204, 221, 238, 0.8)"}
+  ]
 };
 
 var buttons = [stats_button, reset_button, switch_button, crystals_button];
@@ -109,7 +113,6 @@ var Turbulence_604 = '{"name":"Turbulence","level":6,"model":4,"size":2.2,"zoom"
 var Turmoil_603 = '{"name":"Turmoil","level":6,"model":3,"size":2.2,"zoom":1.3,"next":[702,703],"specs":{"shield":{"capacity":[450,550],"reload":[20,28]},"generator":{"capacity":[400,500],"reload":[210,325]},"ship":{"mass":500,"speed":[70,90],"rotation":[35,45],"acceleration":[50,65]}},"bodies":{"frontMain":{"section_segments":12,"offset":{"x":0,"y":0,"z":0},"position":{"x":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"y":[-120,-108,-60,0,9.6,18,24,96,93.6,108,108,132,132],"z":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]},"width":[0,3.9000000000000004,13,22.1,2.6,5.2,33.800000000000004,33.800000000000004,31.200000000000003,31.200000000000003,36.4,36.4,0],"height":[0,4.800000000000001,9.600000000000001,12.8,3.2,6.4,16,16,14.4,14.4,17.6,17.6,0],"texture":[1,1,11,1,1,1,11,17,12,2,2,17]},"cockpit":{"section_segments":6,"offset":{"x":0,"y":-20,"z":10},"position":{"x":[0,0,0,0,0,0],"y":[-40,-38,-15,10,50,60],"z":[0,0,0,0,0,0]},"width":[0,3,8,13,13,0],"height":[0,2.5,6,9,9,0],"texture":[4,9,9,18,4]},"sidesMain":{"section_segments":[0,75,105,180,265,275],"offset":{"x":70,"y":20,"z":-1},"position":{"x":[-20,-20,-20,-20,-20,-20,-20,-20,-20,-20,-20,-20,-20,-20,0,0,0,-10,-10,0,0,0,0,0,0],"y":[-48,-48,-21.599999999999998,-21.599999999999998,-16.8,-16.8,0,0,4.8,4.8,24,24,28.799999999999997,28.799999999999997,42,42,44.4,54,55.199999999999996],"z":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]},"width":[0,7.800000000000001,7.800000000000001,26,26,7.800000000000001,7.800000000000001,32.5,32.5,7.800000000000001,7.800000000000001,39,39,13,13,78,75.4,26,0],"height":[0,4,4,10,10,4,4,10,10,4,4,10,10,5,5,15,15,6,0],"texture":[1,16,1,17,1,16,1,17,1,16,1,17,1,8,1,17,1,17],"angle":75},"guns":{"section_segments":12,"offset":{"x":30,"y":30,"z":0},"position":{"x":[0,0,0,0,0,0,0],"y":[-100,-80,-30,0,20,60,90],"z":[0,0,0,0,0,0,0]},"width":[0,3,3,10,12,12,0],"height":[0,3,3,10,12,12,0],"texture":[17,1,18,1,11,2]},"gunWires":{"section_segments":4,"offset":{"x":30,"y":30,"z":0},"position":{"x":[0,0,0,0,5,5,5,5,-5,-5,-5,-5,0,0,0,0],"y":[-80,-80,40,40,-80,-80,40,40,-80,-80,40,40,-80,-80,40,40],"z":[5,5,5,5,0,0,0,0,0,0,0,0,-5,-5,-5,-5]},"width":[0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0],"height":[0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0],"texture":[3]},"enginesTop":{"section_segments":16,"offset":{"x":32,"y":100,"z":24},"position":{"x":[0,0,0,0,0,0,0,0,0,0,0,0,0],"y":[-26,-23.400000000000002,-13,-15.600000000000001,-18.2,-13,6.5,36.4,39,32.5,45.5,49.4],"z":[0,0,0,0,0,0,0,0,0,0,0,0,0]},"width":[0,2,4,12,14,17,15,9,7,4,2,0],"height":[0,2,4,12,14,17,15,9,7,4,2,0],"texture":[2,2,12,1,18,2,11,1,17,13]},"enginesBot":{"section_segments":16,"offset":{"x":32,"y":100,"z":-24},"position":{"x":[0,0,0,0,0,0,0,0,0,0,0,0,0],"y":[-26,-23.400000000000002,-13,-15.600000000000001,-18.2,-13,6.5,36.4,39,32.5,45.5,49.4],"z":[0,0,0,0,0,0,0,0,0,0,0,0,0]},"width":[0,2,4,12,14,17,15,9,7,4,2,0],"height":[0,2,4,12,14,17,15,9,7,4,2,0],"texture":[2,2,12,1,18,2,11,1,17,13]},"thrusterTopBot":{"section_segments":[45,135,225,315],"offset":{"x":0,"y":92,"z":0},"position":{"x":[0,0,0,0,0,0,0,0,0,0],"y":[0,0,2,35,35,0,0,2,35,35],"z":[20,20,20,20,20,-20,-20,-20,-20,-20]},"width":[0,17,18,18,0,0,17,18,18,0],"height":[0,5,6,6,0,0,5,6,6,0],"texture":[1,17,18,17,1,1,17,18,17]},"cables":{"section_segments":8,"offset":{"x":5,"y":10,"z":0},"position":{"x":[0,0,2,2,0,0,2,2,5,5,10,10],"y":[-14,-14,14,14,-14,-14,14,14,-14,-14,14,14],"z":[3,3,5,5,-3,-3,-5,-5,0,0,0,0]},"width":[0,2,2,0,0,2,2,0,0,3,3,0],"height":[0,2,2,0,0,2,2,0,0,3,3,0],"texture":[3]},"spikes":{"section_segments":[45,135,225,315],"offset":{"x":97,"y":88,"z":-3},"position":{"x":[-20,-20,-20,-20,-20,-10,-10,-10,-10,-10,0,0,0,0,0,10,10,10,10,10,20,20,20,20,20],"y":[0,0,20,38,50,0,0,18,35,45,0,0,16,28,40,0,0,14,23,35,0,0,12,20,30],"z":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]},"width":[0,5,7,5,0,0,5,7,4,0,0,4,6.5,4,0,0,4,6,4,0,0,4,5.5,4,0],"height":[0,2,2,2,0,0,2,2,2,0,0,2,2,2,0,0,2,2,2,0,0,2,2,2,0],"texture":[4],"angle":55},"cores":{"section_segments":12,"offset":{"x":30,"y":-52,"z":0},"position":{"x":[0,0,0,0,0,0,0,0,0,0,0,0,0],"y":[-8,-7.7274066103125465,-6.92820323027551,-5.656854249492381,-4.000000000000001,-2.070552360820166,-4.898587196589413e-16,2.070552360820167,3.9999999999999982,5.65685424949238,6.92820323027551,7.727406610312546,8],"z":[0,0,0,0,0,0,0,0,0,0,0,0,0]},"width":[0,2.070552360820166,3.9999999999999996,5.65685424949238,6.928203230275509,7.7274066103125465,8,7.7274066103125465,6.92820323027551,5.656854249492381,3.9999999999999996,2.070552360820168,9.797174393178826e-16],"height":[0,2.070552360820166,3.9999999999999996,5.65685424949238,6.928203230275509,7.7274066103125465,8,7.7274066103125465,6.92820323027551,5.656854249492381,3.9999999999999996,2.070552360820168,9.797174393178826e-16],"texture":17,"vertical":false,"angle":0},"propeller1":{"section_segments":1,"offset":{"x":0,"y":150,"z":0},"position":{"x":[0],"y":[0],"z":[0]},"width":[25],"height":[20],"propeller":true},"propeller2":{"section_segments":1,"offset":{"x":15,"y":150,"z":0},"position":{"x":[0],"y":[0],"z":[0]},"width":[15],"height":[15],"propeller":true},"propeller3":{"section_segments":1,"offset":{"x":32,"y":140,"z":24},"position":{"x":[0],"y":[0],"z":[0]},"width":[10],"height":[10],"propeller":true},"propeller4":{"section_segments":1,"offset":{"x":32,"y":140,"z":-24},"position":{"x":[0],"y":[0],"z":[0]},"width":[10],"height":[10],"propeller":true},"emitterA0":{"section_segments":1,"offset":{"x":30,"y":-80,"z":0},"position":{"x":[0],"y":[0],"z":[0]},"width":[1],"height":[1],"laser":{"damage":[15,25],"rate":1.2,"speed":[150,220],"number":1}},"emitterA1":{"section_segments":1,"offset":{"x":30,"y":-10,"z":0},"position":{"x":[0],"y":[0],"z":[0]},"width":[1],"height":[1],"laser":{"damage":[15,25],"rate":1.2,"speed":[150,220],"number":1}},"emitterA2":{"section_segments":1,"offset":{"x":30,"y":60,"z":0},"position":{"x":[0],"y":[0],"z":[0]},"width":[1],"height":[1],"laser":{"damage":[15,25],"rate":1.2,"speed":[150,220],"number":1}},"emitterB1":{"section_segments":1,"offset":{"x":30,"y":-52,"z":0},"position":{"x":[0],"y":[-180],"z":[0]},"width":[1],"height":[1],"angle":45,"laser":{"damage":[10,15],"rate":0.6,"speed":[-150,-220],"number":1}},"emitterB2":{"section_segments":1,"offset":{"x":30,"y":-52,"z":0},"position":{"x":[0],"y":[-180],"z":[0]},"width":[1],"height":[1],"angle":90,"laser":{"damage":[10,15],"rate":0.6,"speed":[-150,-220],"number":1}},"emitterB3":{"section_segments":1,"offset":{"x":30,"y":-52,"z":0},"position":{"x":[0],"y":[-180],"z":[0]},"width":[1],"height":[1],"angle":135,"laser":{"damage":[10,15],"rate":0.6,"speed":[-150,-220],"number":1}},"emitterB4":{"section_segments":1,"offset":{"x":30,"y":-52,"z":0},"position":{"x":[0],"y":[-180],"z":[0]},"width":[1],"height":[1],"angle":180,"laser":{"damage":[10,15],"rate":0.6,"speed":[-150,-220],"number":1}},"emitterB5":{"section_segments":1,"offset":{"x":30,"y":-52,"z":0},"position":{"x":[0],"y":[-180],"z":[0]},"width":[1],"height":[1],"angle":225,"laser":{"damage":[10,15],"rate":0.6,"speed":[-150,-220],"number":1}},"emitterB6":{"section_segments":1,"offset":{"x":30,"y":-52,"z":0},"position":{"x":[0],"y":[-180],"z":[0]},"width":[1],"height":[1],"angle":270,"laser":{"damage":[10,15],"rate":0.6,"speed":[-150,-220],"number":1}},"emitterB7":{"section_segments":1,"offset":{"x":30,"y":-52,"z":0},"position":{"x":[0],"y":[-180],"z":[0]},"width":[1],"height":[1],"angle":315,"laser":{"damage":[10,15],"rate":0.6,"speed":[-150,-220],"number":1}},"emitterB8":{"section_segments":1,"offset":{"x":30,"y":-52,"z":0},"position":{"x":[0],"y":[-180],"z":[0]},"width":[1],"height":[1],"angle":360,"laser":{"damage":[10,15],"rate":0.6,"speed":[-150,-220],"number":1}}},"wings":{"main":{"doubleside":true,"offset":{"x":24,"y":50,"z":-3},"length":[60,35],"width":[80,70,40],"angle":[0,0],"position":[5,25,-20],"texture":11,"bump":{"position":10,"size":4}},"backJoinsTop":{"doubleside":true,"offset":{"x":12,"y":92,"z":0},"length":[70],"width":[40,20],"angle":[50],"position":[0,30],"texture":18,"bump":{"position":10,"size":20}},"backJoinsBot":{"doubleside":true,"offset":{"x":12,"y":92,"z":0},"length":[70],"width":[40,20],"angle":[-50],"position":[0,30],"texture":18,"bump":{"position":10,"size":20}},"gunCovers":{"doubleside":true,"offset":{"x":30,"y":-10,"z":-10},"length":[10,6,6,10],"width":[60,70,110,70,50],"angle":[30,80,120,140,170],"position":[10,0,-5,0,10,10],"texture":2,"bump":{"position":10,"size":2}}},"typespec":{"name":"Turmoil","level":6,"model":3,"code":603,"specs":{"shield":{"capacity":[450,550],"reload":[20,28]},"generator":{"capacity":[400,500],"reload":[210,325]},"ship":{"mass":500,"speed":[70,90],"rotation":[35,45],"acceleration":[50,65]}},"shape":[5.28,4.254,2.86,3.351,3.541,3.272,2.766,2.438,2.208,2.06,6.096,5.97,5.754,5.639,5.616,5.661,5.754,7.039,7.512,8.078,6.851,5.885,6.326,6.723,6.226,5.819,6.226,6.723,6.326,5.885,6.851,8.078,7.512,7.039,5.754,5.661,5.616,5.639,5.754,5.97,6.096,2.06,2.208,2.438,2.766,3.272,3.541,3.351,2.86,4.254],"lasers":[{"x":1.32,"y":-3.52,"z":0,"angle":0,"damage":[15,25],"rate":1.2,"speed":[150,220],"number":1,"spread":0,"error":0,"recoil":0},{"x":-1.32,"y":-3.52,"z":0,"angle":0,"damage":[15,25],"rate":1.2,"speed":[150,220],"number":1,"spread":0,"error":0,"recoil":0},{"x":1.32,"y":-0.44,"z":0,"angle":0,"damage":[15,25],"rate":1.2,"speed":[150,220],"number":1,"spread":0,"error":0,"recoil":0},{"x":-1.32,"y":-0.44,"z":0,"angle":0,"damage":[15,25],"rate":1.2,"speed":[150,220],"number":1,"spread":0,"error":0,"recoil":0},{"x":1.32,"y":2.64,"z":0,"angle":0,"damage":[15,25],"rate":1.2,"speed":[150,220],"number":1,"spread":0,"error":0,"recoil":0},{"x":-1.32,"y":2.64,"z":0,"angle":0,"damage":[15,25],"rate":1.2,"speed":[150,220],"number":1,"spread":0,"error":0,"recoil":0},{"x":-4.28,"y":-7.888,"z":0,"angle":45,"damage":[10,15],"rate":0.6,"speed":[-150,-220],"number":1,"spread":0,"error":0,"recoil":0},{"x":4.28,"y":-7.888,"z":0,"angle":-45,"damage":[10,15],"rate":0.6,"speed":[-150,-220],"number":1,"spread":0,"error":0,"recoil":0},{"x":-6.6,"y":-2.288,"z":0,"angle":90,"damage":[10,15],"rate":0.6,"speed":[-150,-220],"number":1,"spread":0,"error":0,"recoil":0},{"x":6.6,"y":-2.288,"z":0,"angle":-90,"damage":[10,15],"rate":0.6,"speed":[-150,-220],"number":1,"spread":0,"error":0,"recoil":0},{"x":-4.28,"y":3.312,"z":0,"angle":135,"damage":[10,15],"rate":0.6,"speed":[-150,-220],"number":1,"spread":0,"error":0,"recoil":0},{"x":4.28,"y":3.312,"z":0,"angle":-135,"damage":[10,15],"rate":0.6,"speed":[-150,-220],"number":1,"spread":0,"error":0,"recoil":0},{"x":1.32,"y":5.632,"z":0,"angle":180,"damage":[10,15],"rate":0.6,"speed":[-150,-220],"number":1,"spread":0,"error":0,"recoil":0},{"x":-1.32,"y":5.632,"z":0,"angle":-180,"damage":[10,15],"rate":0.6,"speed":[-150,-220],"number":1,"spread":0,"error":0,"recoil":0},{"x":6.92,"y":3.312,"z":0,"angle":225,"damage":[10,15],"rate":0.6,"speed":[-150,-220],"number":1,"spread":0,"error":0,"recoil":0},{"x":-6.92,"y":3.312,"z":0,"angle":-225,"damage":[10,15],"rate":0.6,"speed":[-150,-220],"number":1,"spread":0,"error":0,"recoil":0},{"x":9.24,"y":-2.288,"z":0,"angle":270,"damage":[10,15],"rate":0.6,"speed":[-150,-220],"number":1,"spread":0,"error":0,"recoil":0},{"x":-9.24,"y":-2.288,"z":0,"angle":-270,"damage":[10,15],"rate":0.6,"speed":[-150,-220],"number":1,"spread":0,"error":0,"recoil":0},{"x":6.92,"y":-7.888,"z":0,"angle":315,"damage":[10,15],"rate":0.6,"speed":[-150,-220],"number":1,"spread":0,"error":0,"recoil":0},{"x":-6.92,"y":-7.888,"z":0,"angle":-315,"damage":[10,15],"rate":0.6,"speed":[-150,-220],"number":1,"spread":0,"error":0,"recoil":0},{"x":1.32,"y":-10.208,"z":0,"angle":360,"damage":[10,15],"rate":0.6,"speed":[-150,-220],"number":1,"spread":0,"error":0,"recoil":0},{"x":-1.32,"y":-10.208,"z":0,"angle":-360,"damage":[10,15],"rate":0.6,"speed":[-150,-220],"number":1,"spread":0,"error":0,"recoil":0}],"radius":8.078,"next":[702,703]}}';
 
 var ships = [
-  
   Majestic_Feather_101,
   Majestic_Spark_201,
   Majestic_Scattershot_202,
@@ -127,9 +130,7 @@ var ships = [
   Turmoil_603,
   Armada_701,
   Honor_702,
-  
   Nephalem_703,
-  
   Malicious_Feather_102,
   Malicious_Scattershot_203,
   Malicious_Spark_204,
@@ -147,7 +148,7 @@ var ships = [
   Malicious_Dreadnought_606,
   Malice_704,
   Armageddon_705,
-  ];
+];
 
 var vocabulary = [
     { text: "You", icon:"\u004e", key:"O" },
@@ -175,12 +176,14 @@ var gamemode = [];
 var teams = [];
 var colors = [];
 var lives = [];
+
 if (mode === 0) {
   gamemode = "team";
   teams = 2;
   colors = [190,0];
   lives = null;
 }
+
 if (mode === 1) {
   gamemode = "";
   teams = 0;
@@ -208,19 +211,19 @@ this.options = {
   station_repair_threshold: 0.1,
   starting_ship: lives,
   soundtrack: "argon.mp3",
-
 } ;
 
 var crystalGen_base_multiplier = 10;
 var tick_multiplier = 3;
+
 majesticIntro = [
   "Pilot! glad to have you fighting for our cause. But don't get comfortable, we have trouble ahead.\n",
   "Those Malicious savages have setup their own stronghold not too far from here.\n",
   "This sector lacks any resources, we have outfitted your ship with a crystal generator\n",
   "By default, it will generate " + crystalGen_base_multiplier + " crystals every " + tick_multiplier + " seconds.\n",
-  "But to fund the war effort, your going to have to hunt down our enemies and fuel it with their blood.\n",
+  "But to fund the war effort, you're going to have to hunt down our enemies and fuel it with their blood.\n",
   "There's no time to waste, go out and fight! Show our enemies what it means to be a Majestic Warrior!\n"
-  ];
+];
 
 maliciousIntro = [
   "Hmhmhmhmhm Fresh blood. Welcome to the fight! It looks like we will be feasting today.\n",
@@ -229,33 +232,23 @@ maliciousIntro = [
   "By default, it will generate " + crystalGen_base_multiplier + " crystals every " + tick_multiplier + " seconds.\n",
   "Not enough? Agreed! Fuel it with Majestic blood. Kill them, and it will generate more.\n",
   "Time to get busy, boys and girls HMHMHMHMHMHAHA! KILL THEM ALL!!!\n"
-  ];
+];
 
 introduction = function(ship) {
-  
   if (ship.custom.intro !== 0) {
-    
     switch (ship.custom.faction) {
-      
       case "Majestic":
-        
         ship.instructorSays(majesticIntro[majesticIntro.length - ship.custom.intro],"Kan");
         break;
       
       case "Malicious":
-        
         ship.instructorSays(maliciousIntro[maliciousIntro.length - ship.custom.intro],"Zoltar");
         break;
     }
-    
   } else {
-    
     ship.hideInstructor();
-    
   }
-  
   ship.custom.intro -= 1;
-  
 };
 
 crystalGen = function(ship) {
@@ -308,11 +301,9 @@ this.tick = function(game) {
   if (mode == 1) {
     if ( game.step % 30 == 0 ) {
       for (let ship of game.ships) {
-        if (!ship.custom.buttons_installed && ship.alive)
-        {
+        if (!ship.custom.buttons_installed && ship.alive) {
           ship.custom.buttons_installed = true;
-          for (b in buttons)
-          {
+          for (b in buttons) {
             ship.setUIComponent(buttons[b]);
             ship.custom.tree = 0;
             for (let tree = 0; tree < ship_list.length; tree++) {
@@ -339,19 +330,15 @@ this.tick = function(game) {
   }  
 
   if ( game.step % 180 == 0 ) {
-    
     for ( var i = 0 ; i < game.ships.length ; i++ ) {
       var ship = game.ships[i];
       
       if ( !ship.custom.init && !ship.custom.faction_set ) {
-       
         ship.custom.init = true;
         ship.custom.kills = 0;
         ship.custom.faction_set = true;
         switch ( ship.team ) {
-         
           case 0:
-           
             ship.custom.faction = "Majestic";
             ship.set({type:101,stats:ship.stats});
             ship.custom.intro = (majesticIntro.length);
@@ -359,45 +346,34 @@ this.tick = function(game) {
             break;
            
           case 1:
-           
             ship.custom.faction = "Malicious";
             ship.set({type:102,stats:ship.stats});
             ship.custom.intro = (maliciousIntro.length);
             ship.custom.joined = game.step;
             break;
-           
         }
-       
       }
       if (mode == 0 && ship.custom.intro > -1 && ((game.step - ship.custom.joined) % 24 ) == 0 && game.step != ship.custom.joined ) {
-       
         introduction(ship);
       }
       if (!ship.idle && ship.alive) {
         crystalGen(ship); //for anarchy gameplay
-        
       }
-      
     }
-    
   }
- 
 };
 
 this.event = function(event, game) {
-  switch (event.name)
-  {
+  switch (event.name) {
     case "ship_destroyed":
-      if (event.killer != null)
-      {
+      if (event.killer != null) {
         event.killer.custom.kills = event.killer.custom.kills + 1 || 1;
       }
       break;
     case "ui_component_clicked":
       var ship = event.ship;
       var component = event.id;
-      switch (component)
-      {
+      switch (component) {
         case "switch":
           var tree = ship.custom.tree;
           var index = -1;
@@ -408,8 +384,7 @@ this.event = function(event, game) {
             index = (index + 1) % ship_list[tree].length;
             new_type = ship_list[tree][index];
             var level = Math.trunc(new_type / 100);
-            if (level < 7 && ship.custom.keep_maxed)
-            {
+            if (level < 7 && ship.custom.keep_maxed) {
               var max = 11111111 * level;
               if (ship.stats != max) {
                 new_stats = max;
@@ -422,10 +397,8 @@ this.event = function(event, game) {
           var stats = ship.stats;
           var level = Math.trunc(ship.type / 100);
           var max = 11111111 * level;
-          if (level < 7)
-          {
-            if (stats == max)
-            {
+          if (level < 7) {
+            if (stats == max) {
               ship.custom.keep_maxed = false;
               ship.set({stats:0});
             } else {
