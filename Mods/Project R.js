@@ -1,7 +1,14 @@
-/****************************************
------     PROJECT R V.ACECLIENT     -----
------ AUTHORS: Azedioz/Plasma/Kuro  -----
-****************************************/
+/*̅‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾̅‾
+____________________________________________________
+ ╭─╮╭─╴╭─╴   ╭─╴╷  ╷╭─╴╭╮╷╶┬╴   ╭┬╮╭─╮╶┬╮╶┬╮╷╭╮╷╭─╴
+ ├─┤│  ├╴    │  │  │├╴ │╰┤ │    ││││ │ ││ ││││╰┤│╶╮
+ ╵ ╵╰─╴╰─╴   ╰─╴╰─╴╵╰─╴╵ ╵ ╵    ╵ ╵╰─╯╶┴╯╶┴╯╵╵ ╵╰─╯ 
+‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+ > Project R
+ > Azedioz/Plasma/Kuro
+ > 1.0.0
+____________________________________________________
+̲*/
 
 var Fly_TypeR = '{"name":"Fly Type-R","level":1,"model":1,"size":1.2,"specs":{"shield":{"capacity":[80,120],"reload":[4,6]},"generator":{"capacity":[80,100],"reload":[20,40]},"ship":{"mass":80,"speed":[105,125],"rotation":[80,100],"acceleration":[100,120]}},"bodies":{"main":{"section_segments":16,"offset":{"x":0,"y":0,"z":10},"position":{"x":[0,0,0,0,0,0,0,0,0,0],"y":[-125,-100,-70,-20,10,30,55,75,60],"z":[0,0,0,0,0,0,0,0,0]},"width":[0,8,20,20,23,23,18,15,0],"height":[0,8,12,12,12,20,13,10,0],"propeller":true,"texture":[4,63,10,2,3,8,15,17]},"cockpit":{"section_segments":8,"offset":{"x":0,"y":-40,"z":15},"position":{"x":[0,0,0,0,0,0,0],"y":[-30,-20,0,30,40],"z":[0,0,0,0,0]},"width":[0,10,15,10,0],"height":[0,18,25,18,0],"texture":[4,4,63]},"air_mid":{"section_segments":16,"offset":{"x":0,"y":0,"z":0},"position":{"x":[0,0,0,0,0,0,0,0],"y":[-80,-95,-50,0,50,70,90],"z":[0,0,0,0,10,10,10]},"width":[0,5,20,10,20,5,0],"height":[0,10,15,15,15,10,0],"texture":[4,63,18,1,63,17]},"cannons1":{"section_segments":12,"offset":{"x":15,"y":-60,"z":10},"position":{"x":[0,0,0,0,0,0,0,0],"y":[-50,-30,-40,-20,0,20,50,45],"z":[0,0,0,0,0,0,0,0]},"width":[0,2,4,4,10,10,5,0],"height":[0,2,4,4,10,10,5,0],"texture":[6,4,4,10,15,63,8],"angle":0,"laser":{"damage":[10,20],"rate":1,"type":1,"speed":[120,180],"number":1,"error":0}},"cannons2":{"section_segments":12,"offset":{"x":25,"y":-50,"z":10},"position":{"x":[0,0,0,0,0,0,0,0],"y":[-50,-30,-40,-20,0,20,50,45],"z":[0,0,0,0,0,0,0,0]},"width":[0,2,4,4,10,10,5,0],"height":[0,2,4,4,10,10,5,0],"texture":[6,4,4,10,15,63,8],"angle":3,"laser":{"damage":[6,10],"rate":2,"type":1,"speed":[120,180],"number":1,"error":0}},"toppropulsors":{"section_segments":12,"offset":{"x":30,"y":40,"z":25},"position":{"x":[-5,0,0,0,0,0,0,0,0,0],"y":[-40,-25,0,10,20,25,30,40,50,40],"z":[0,0,0,0,0,0,0,0,0,0]},"width":[0,10,10,10,15,15,15,15,10,0],"height":[0,10,15,15,15,15,15,15,10,0],"texture":[63,18,2,8,2,63,10,15,17],"propeller":true},"bottompropulsors":{"section_segments":12,"offset":{"x":30,"y":40,"z":-5},"position":{"x":[-5,0,0,0,0,0,0,0,0,0],"y":[-40,-25,0,10,20,25,30,40,50,40],"z":[0,0,0,0,0,0,0,0,0,0]},"width":[0,10,10,10,15,15,15,15,10,0],"height":[0,10,15,15,15,15,15,15,10,0],"texture":[63,18,2,8,2,63,10,15,17],"propeller":true}},"wings":{"main":{"length":[80,20],"width":[100,50,40],"angle":[-10,20],"position":[30,50,30],"doubleside":true,"bump":{"position":30,"size":10},"texture":[11,63],"offset":{"x":0,"y":-10,"z":10}}},"typespec":{"name":"Project R-01 ","level":1,"model":1,"code":101,"specs":{"shield":{"capacity":[80,120],"reload":[4,6]},"generator":{"capacity":[80,100],"reload":[20,40]},"ship":{"mass":80,"speed":[105,125],"rotation":[80,100],"acceleration":[100,120]}},"shape":[3,2.664,2.458,2.114,1.696,1.517,1.332,1.179,1.052,0.951,0.882,1.03,1.248,2.36,2.416,2.517,2.531,2.473,2.451,2.291,2.062,2.322,2.364,2.271,1.974,2.16,1.974,2.271,2.364,2.322,2.062,2.291,2.451,2.473,2.531,2.517,2.416,2.36,2.342,1.03,0.882,0.951,1.052,1.179,1.332,1.517,1.696,2.114,2.458,2.664],"lasers":[{"x":0.36,"y":-2.64,"z":0.24,"angle":0,"damage":[10,20],"rate":1,"type":1,"speed":[120,180],"number":1,"spread":0,"error":0,"recoil":0},{"x":-0.36,"y":-2.64,"z":0.24,"angle":0,"damage":[10,20],"rate":1,"type":1,"speed":[120,180],"number":1,"spread":0,"error":0,"recoil":0},{"x":0.537,"y":-2.398,"z":0.24,"angle":3,"damage":[6,10],"rate":2,"type":1,"speed":[120,180],"number":1,"spread":0,"error":0,"recoil":0},{"x":-0.537,"y":-2.398,"z":0.24,"angle":-3,"damage":[6,10],"rate":2,"type":1,"speed":[120,180],"number":1,"spread":0,"error":0,"recoil":0}],"radius":3}}';
 
@@ -83,12 +90,7 @@ ships.push(Titan_TypeR);
 this.options = {
   ships: ships,
   root_mode: "survival",
-  map_name: "Ace CLient Type-R Mod",
-  reset_tree: false,
+  map_name: "Ace Modding - Project R",
   starting_ship: 101,
-  
-  crystal_value: 1,
-  asteroid_strengh: 1,
-  
-  starting_ship_maxed: true,
+  survival_time: 0;
 };
