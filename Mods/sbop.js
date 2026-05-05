@@ -1417,18 +1417,16 @@ if (map_name) {
   map_name = map_id;
 }
 
-var text_info = `Welcome to Starblast.OP. You are playing on the map '${map_name}' by ${creator}.`;
+// .;'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+var text_info = `Welcome to Starblast OP. This is the '${map_name}' map by ${creator}.`;
 
 var UI_info = {
   id:"info",
   visible:true,
   position:[25,2,50,10],
   components:[
-    {type:"text",position:[0,0,100,20],color:"#FFF",value:text_info},
-    {type:"text",position:[0,20,100,20],color:"#FFF",value:"Kill each other and the aliens, although some aliens are unkillable sentries."},
-    {type:"text",position:[0,40,100,20],color:"#FFF",value:"First person to get 1,000,000 points wins. Do not team or overuse a ship in need of a nerf."},
-    {type:"text",position:[0,60,100,20],color:"#FFF",value:"For suggestions, feedback, hate, ship submissions, or map (100x100) submissions,"},
-    {type:"text",position:[0,80,100,20],color:"#FFF",value:"Do not hesitate to contact me on discord as ProfessorPi31415#1330."},
+    {type:"text",position:[0,0,100,20],color:"#FFF",value:`Welcome to Starblast OP. This is the '${map_name}' map by ${creator}.`},
+    {type:"text",position:[0,20,100,20],color:"#FFF",value:"Kill everything in sight! First to 1M points wins. Note some aliens are unkillable sentries."},
   ]
 };
 
