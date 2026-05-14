@@ -2,4 +2,5 @@
 <hr>
 <hr>
 
-Secondary resources for Ace Client. Mod contributions open, especially thumbnails.
+Secondary resources for Ace Client
+Mod contributions open, pls include thumbnails.
