@@ -1,3 +1,15 @@
+/*̅‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾̅‾
+____________________________________________________
+ ╭─╮╭─╴╭─╴   ╭─╴╷  ╷╭─╴╭╮╷╶┬╴   ╭┬╮╭─╮╶┬╮╶┬╮╷╭╮╷╭─╴
+ ├─┤│  ├╴    │  │  │├╴ │╰┤ │    ││││ │ ││ ││││╰┤│╶╮
+ ╵ ╵╰─╴╰─╴   ╰─╴╰─╴╵╰─╴╵ ╵ ╵    ╵ ╵╰─╯╶┴╯╶┴╯╵╵ ╵╰─╯ 
+‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+ > Plane Series
+ > 
+ > 1.0
+____________________________________________________
+̲*/
+
 const ships = [];
 
 var Wright_Flyer_101 = '{"name":"Wright Flyer","level":1,"model":1,"size":0.5,"zoom":1.75,"specs":{"shield":{"capacity":[25,25],"reload":[2,2]},"generator":{"capacity":[6,6],"reload":[5,5]},"ship":{"mass":50,"speed":[90,90],"rotation":[20,20],"acceleration":[30,30]}},"bodies":{"engines":{"section_segments":25,"offset":{"x":60,"y":0,"z":0},"position":{"x":[0,0,0,0,0,0,0,0,0,-60],"y":[-30,-30,-29,-29,-5,-5,5,5,0,0],"z":[0,0,0,0,0,0,0,0,0,-20]},"width":[0,18,18,2,2,5,5,0,1,1],"height":[0,18,18,2,2,5,5,0,1,1],"texture":[13,3,13,4,17,10,1,1,4],"propeller":false},"gun_mount":{"section_segments":[45,135,225,315],"offset":{"x":35,"y":-10,"z":-15},"position":{"x":[0,0,0,0,0,0,0,0,0,0],"y":[-10,-10,-9,9,10,10],"z":[0,0,0,0,0,0,0,0,0,0]},"width":[0,8,10,10,8,0],"height":[0,6,7,7,6,0],"texture":[4,17,18,17,4],"propeller":false},"gun":{"section_segments":25,"offset":{"x":35,"y":-5,"z":-15},"position":{"x":[0,0,0,0,0,0,0,0,0,-60],"y":[-30,-30,-27,-27,-25,-25,-10],"z":[0,0,0,0,0,0,0,0,0,-20]},"width":[0,1.5,1.5,1,1,2,2],"height":[0,1.5,1.5,1,1,2,2],"texture":[17,4,4,17,4,12],"propeller":false,"laser":{"damage":[1,1],"rate":4,"type":1,"speed":[60,60],"error":5,"number":1}},"main_wing_supports1":{"section_segments":6,"offset":{"x":100,"y":0,"z":20},"position":{"x":[0,0],"y":[-20,20],"z":[0,0]},"vertical":true,"width":[1,1],"height":[1,1],"texture":[6]},"main_wing_supports2":{"section_segments":6,"offset":{"x":80,"y":0,"z":20},"position":{"x":[0,0],"y":[-20,20],"z":[0,0]},"vertical":true,"width":[1,1],"height":[1,1],"texture":[6]},"main_wing_supports3":{"section_segments":6,"offset":{"x":60,"y":0,"z":20},"position":{"x":[0,0],"y":[-20,20],"z":[0,0]},"vertical":true,"width":[1,1],"height":[1,1],"texture":[6]},"main_wing_supports4":{"section_segments":6,"offset":{"x":40,"y":0,"z":20},"position":{"x":[0,0],"y":[-20,20],"z":[0,0]},"vertical":true,"width":[1,1],"height":[1,1],"texture":[6]},"main_wing_supports5":{"section_segments":6,"offset":{"x":20,"y":0,"z":20},"position":{"x":[0,0],"y":[-20,20],"z":[0,0]},"vertical":true,"width":[1,1],"height":[1,1],"texture":[6]},"main_wing_supports6":{"section_segments":6,"offset":{"x":0,"y":0,"z":20},"position":{"x":[0,0],"y":[-20,20],"z":[0,0]},"vertical":true,"width":[1,1],"height":[1,1],"texture":[6]},"main_wing_supports7":{"section_segments":6,"offset":{"x":100,"y":0,"z":0},"position":{"x":[0,0],"y":[-20,20],"z":[0,0]},"vertical":true,"width":[1,1],"height":[1,1],"texture":[6]},"main_wing_supports8":{"section_segments":6,"offset":{"x":80,"y":0,"z":0},"position":{"x":[0,0],"y":[-20,20],"z":[0,0]},"vertical":true,"width":[1,1],"height":[1,1],"texture":[6]},"main_wing_supports9":{"section_segments":6,"offset":{"x":60,"y":0,"z":0},"position":{"x":[0,0],"y":[-20,20],"z":[0,0]},"vertical":true,"width":[1,1],"height":[1,1],"texture":[6]},"main_wing_supports10":{"section_segments":6,"offset":{"x":40,"y":0,"z":0},"position":{"x":[0,0],"y":[-20,20],"z":[0,0]},"vertical":true,"width":[1,1],"height":[1,1],"texture":[6]},"main_wing_supports11":{"section_segments":6,"offset":{"x":20,"y":0,"z":0},"position":{"x":[0,0],"y":[-20,20],"z":[0,0]},"vertical":true,"width":[1,1],"height":[1,1],"texture":[6]},"main_wing_supports12":{"section_segments":6,"offset":{"x":0,"y":0,"z":0},"position":{"x":[0,0],"y":[-20,20],"z":[0,0]},"vertical":true,"width":[1,1],"height":[1,1],"texture":[6]},"rudder_support1":{"section_segments":6,"offset":{"x":0,"y":0,"z":20},"position":{"x":[0,0],"y":[-37,0],"z":[0,0]},"width":[1,1],"height":[1,1],"texture":[6]},"rudder_support2":{"section_segments":6,"offset":{"x":0,"y":0,"z":-20},"position":{"x":[0,0],"y":[-37,0],"z":[0,0]},"width":[1,1],"height":[1,1],"texture":[6]},"rudder_support3":{"section_segments":6,"offset":{"x":0,"y":-37,"z":-20},"position":{"x":[0,0],"y":[-10,10],"z":[0,0]},"angle":90,"width":[0.5,0.5],"height":[0.5,0.5],"texture":[6]},"rudder_support4":{"section_segments":6,"offset":{"x":0,"y":-37,"z":20},"position":{"x":[0,0],"y":[-10,10],"z":[0,0]},"angle":90,"width":[0.5,0.5],"height":[0.5,0.5],"texture":[6]},"rudder_support5":{"section_segments":6,"offset":{"x":0,"y":-44,"z":17},"position":{"x":[0,0],"y":[-10,10],"z":[0,0]},"angle":90,"width":[0.5,0.5],"height":[0.5,0.5],"texture":[6]},"rudder_support6":{"section_segments":6,"offset":{"x":0,"y":-44,"z":0},"position":{"x":[0,0],"y":[-10,10],"z":[0,0]},"angle":90,"width":[0.5,0.5],"height":[0.5,0.5],"texture":[6]},"rudder_support7":{"section_segments":6,"offset":{"x":0,"y":-44,"z":-14},"position":{"x":[0,0],"y":[-10,10],"z":[0,0]},"angle":90,"width":[0.5,0.5],"height":[0.5,0.5],"texture":[6]},"skids":{"section_segments":6,"offset":{"x":10,"y":0,"z":-30},"position":{"x":[0,0,0,0,0,0,0],"y":[-30,-30,-5,20,-30,50,75],"z":[0,0,8,0,0,0,23]},"width":[0,1,1,1,1,1,1,1],"height":[0,1,1,1,1,1,1,1],"texture":[6]},"skids_support":{"section_segments":6,"offset":{"x":10,"y":0,"z":20},"position":{"x":[0,0],"y":[23,50],"z":[-2,-50]},"width":[1,1],"height":[2,2],"texture":[6]},"tail_supports1":{"section_segments":6,"offset":{"x":35,"y":0,"z":-75},"position":{"x":[0,0],"y":[-7,7],"z":[0,0]},"vertical":true,"width":[0.5,0.5],"height":[0.5,0.5],"texture":[6]},"tail_supports2":{"section_segments":6,"offset":{"x":19,"y":0,"z":-66},"position":{"x":[0,0],"y":[-7,7],"z":[0,0]},"vertical":true,"width":[0.5,0.5],"height":[0.5,0.5],"texture":[6]},"tail_supports3":{"section_segments":6,"offset":{"x":19,"y":0,"z":-84},"position":{"x":[0,0],"y":[-7,7],"z":[0,0]},"vertical":true,"width":[0.5,0.5],"height":[0.5,0.5],"texture":[6]},"tail_supports4":{"section_segments":6,"offset":{"x":0,"y":0,"z":-66},"position":{"x":[0,0],"y":[-7,7],"z":[0,0]},"vertical":true,"width":[0.5,0.5],"height":[0.5,0.5],"texture":[6]},"tail_supports5":{"section_segments":6,"offset":{"x":0,"y":0,"z":-84},"position":{"x":[0,0],"y":[-7,7],"z":[0,0]},"vertical":true,"width":[0.5,0.5],"height":[0.5,0.5],"texture":[6]}},"wings":{"bottom":{"length":[100,10,5],"width":[50,50,30,10],"angle":[0,0,0],"position":[0,0,0,0],"texture":[11,4,63],"doubleside":true,"bump":{"position":0,"size":5},"offset":{"x":0,"y":0,"z":-20}},"top":{"length":[100,10,5],"width":[50,50,30,10],"angle":[0,0,0],"position":[0,0,0,0],"texture":[11,4,63],"doubleside":true,"bump":{"position":0,"size":5},"offset":{"x":0,"y":0,"z":20}},"tail_bottom":{"length":[20,15,2],"width":[20,20,7,3],"angle":[0,0,0],"position":[0,0,0,0],"texture":[1,63],"doubleside":true,"bump":{"position":0,"size":5},"offset":{"x":0,"y":75,"z":-7}},"tail_top":{"length":[20,15,2],"width":[20,20,7,3],"angle":[0,0,0],"position":[0,0,0,0],"texture":[1,63],"doubleside":true,"bump":{"position":0,"size":5},"offset":{"x":0,"y":75,"z":7}},"rudder":{"length":[2,5,30,5,2],"width":[2,5,10,10,5,2],"angle":[90,90,90,90,90],"position":[3,2,0,0,2,3],"texture":[63],"doubleside":true,"bump":{"position":0,"size":15},"offset":{"x":10,"y":-40,"z":-20}}},"typespec":{"name":"Wright Flyer","level":1,"model":1,"code":101,"specs":{"shield":{"capacity":[25,25],"reload":[2,2]},"generator":{"capacity":[6,6],"reload":[5,5]},"ship":{"mass":50,"speed":[90,90],"rotation":[20,20],"acceleration":[30,30]}},"shape":[0.445,0.452,0.461,0.319,0.292,0.32,0.506,0.501,0.623,0.815,1.002,1.114,1.151,1.151,1.114,1.002,0.678,0.515,0.422,0.361,0.32,0.853,0.863,0.873,0.865,0.852,0.865,0.873,0.863,0.853,0.32,0.361,0.422,0.515,0.678,1.002,1.114,1.151,1.151,1.114,1.002,0.815,0.623,0.501,0.506,0.32,0.292,0.319,0.461,0.452],"lasers":[{"x":0.35,"y":-0.35,"z":-0.15,"angle":0,"damage":[1,1],"rate":4,"type":1,"speed":[60,60],"number":1,"spread":0,"error":5,"recoil":0},{"x":-0.35,"y":-0.35,"z":-0.15,"angle":0,"damage":[1,1],"rate":4,"type":1,"speed":[60,60],"number":1,"spread":0,"error":5,"recoil":0}],"radius":1.151}}';
@@ -30,37 +42,11 @@ ships.push(P_38_Lightning_403);
 ships.push(Supermarine_Spitfire_404);
 
 const modUtils = {
-  cheatMode: true, // debug mode
-  defaultVocab: [
-    { text: "You", icon: "\u004e", key: "O" },
-    { text: "Me", icon: "\u004f", key: "E" },
-    { text: "Yes", icon: "\u004c", key: "Y" },
-    { text: "No", icon: "\u004d", key: "N" },
-    { icon: "I", text: "Attack", key: "A" },
-    { text: "Follow", icon: "\u0050", key: "F" },
-    { text: "WTF", icon: "ಠ_ಠ", key: "W" },
-    { text: "Defend", icon: "\u0025", key: "D" },
-    { text: "Wait", icon: "\u0048", key: "T" },
-    { text: "Kill", icon: "\u005b", key: "K" },
-    { text: "Bruh", icon: "˙ ͜ʟ˙", key: "M" },
-    { text: "Hmm", icon: "\u004b", key: "Q" },
-    { text: "Good Game", icon: "GG", key: "G" },
-    { text: "No Prob", icon: "\u0047", key: "P" },
-    { text: "Thanks", icon: "\u0041", key: "X" },
-    { text: "Sorry", icon: "\u00a1", key: "S" },
-  ],
-  music: [
-    "procedurality.mp3",
-    "argon.mp3",
-    "crystals.mp3",
-    "red_mist.mp3",
-    "civilisation.mp3",
-    "warp_drive.mp3"
-  ],
+  cheatMode: true,
   def_clr: "hsla(210, 50%, 87%, 1)",
   prefixes: ["", "K", "M", "B", "t", "q", "Q", "s", "S", "o", "n", "d", "U", "D", "T", "Qt", "Qd"],
   gemCapacity: [
-    undefined, // maintain, custom limit, physical capacity
+    undefined, // [maintain, custom limit, physical capacity]
     [20, 20, 20],
     [80, 80, 80],
     [180, 180, 180],
@@ -428,38 +414,13 @@ modUtils.abilities.list.push(
 this.tick = modUtils.tick;
 this.event = modUtils.handleUIPress;
 this.options = {
-  map_size: 80,
-  //custom_map: map,
-  map_name: "Aviation Series",
   max_players: 30,
-  vocabulary: modUtils.defaultVocab,
   station_crystal_capacity: 0.1,
   station_repair_threshold: 0.01,
-  radar_zoom: 2,
   ships: ships,
   reset_tree: true,
   friendly_colors: 2,
   root_mode: "team",
-  speed_mod: 1,
-  asteroids_strength: 0.75,
-  crystal_value: 20,
-  release_crystal: true,
-  crystal_drop: 1,
-  mines_self_destroy: false,
-  survival_time: 30,
+  asteroids_strength: 0.5,
+  crystal_value: 10,
 };
-
-
-/*
-1:24     1:25:18 t2
-1:25:40  1:27:59 t3
-1:28:20  1:39:32 t3 base filled
-1:40     1:41:13 t4
-
-
-2:25:30
-
-
-
-
-*/
