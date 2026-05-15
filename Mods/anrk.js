@@ -228,17 +228,17 @@ majesticIntro = [
   "Hail, valiant Pilot! Long have we awaited a warrior of thy worth to stand in defence of the Free Realms.\n",
   "Yet comfort is a stranger in these shadowed days. A great peril gathers near.\n",
   "The Malicious hordes have raised a black stronghold upon the edge of this forsaken sector, a thorn of iron and malice.\n",
-  "This region is barren of hope and sustenance, therefore have we wrought into thy vessel a Crystal Generator of ancient design.\n",
+  "This region is barren of hope and sustenance, therefore we have wrought into thy vessel a Crystal Generator of ancient design.\n",
   "By its own virtue it shall yield " + crystalGen_base_multiplier + " crystals every " + tick_multiplier + " seconds.\n",
-  "But the true fires of war demand greater tribute. Thou must ride forth and hunt the foe, watering the crystal-heart with the blood of our enemies.\n",
+  "But the true fires of war demand greater tribute. You must ride forth and hunt the foe, watering the crystal-heart with the blood of our enemies.\n",
   "Go now, noble one! Let thy deeds echo through the ages, and show these foul creatures what it means to stand as a Majestic Warrior!\n"
 ];
 
 maliciousIntro = [
   "Hmmmhmmm… fresh meat has arrived. Welcome, little slaughterer, to our grand feast of blood.\n",
   "The so-called Majestic ones prance about in their shining delusion, blind to the justice that awaits them.\n",
-  "This wasteland holds nothing for the weak. Therefore we have bound a Crystal Generator into thy ship, a hungry engine of war.\n",
-  "By itself it drips a mere " + crystalGen_base_multiplier + " crystals every " + tick_multiplier + " seconds.\n",
+  "This wasteland holds nothing for the weak. So, we have bound a Crystal Generator into thy ship, a hungry engine of war.\n",
+  "By itself it drips " + crystalGen_base_multiplier + " crystals every " + tick_multiplier + " seconds.\n",
   "Pathetic. Pathetic! Feed it their bright blood. Each Majestic life you tear asunder shall make the crystals flow like rivers of rubies.\n",
   "Now go, my sweet murderers… hunt them. Break them. Devour their hope.\n",
   "HMHMHMHMHM… HAHAHAHA! Let the stars themselves tremble at the slaughter!\n"
