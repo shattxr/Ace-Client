@@ -1,0 +1,137 @@
+[
+		{
+			abbr: "CTF3",
+			author: "JavRedstone",
+			category: "revamp",
+			codeUrl: "https://raw.githubusercontent.com/JavRedstone/Starblast.io-Modding/refs/heads/main/utilities/capture-the-flag-revamp/ctf-v3.0/ctf-v3.0.js",
+			imageUrl: "https://raw.githubusercontent.com/JavRedstone/Starblast.io-Modding/refs/heads/main/utilities/capture-the-flag-revamp/ctf-v3.0/CTF_ModdingSpace_Banner_JavRedstone.png",
+			name: "Capture the Flag",
+			version: "3.0.0"
+		},
+		{
+		  abbr: "ANRK",
+		  name: "Anarchy",
+		  author: "MaleficArtist",
+		  category: "misc",
+		  imageUrl: "",
+		  codeUrl: "https://raw.githubusercontent.com/shattxr/Ace-Client/main/Mods/anrk.js",
+		  version: "1.5"
+		},
+		{
+		  abbr: "A-S",
+		  name: "A-Speedster Series",
+		  author: "Neuronality, Finalizer", // SChickenMan, 45rfew, Bhpsngum, Aerial 0770, Torque, ASC-095
+		  category: "shiptree",
+		  imageUrl: "",
+		  codeUrl: "https://raw.githubusercontent.com/shattxr/Ace-Client/main/Mods/ass.js",
+		  version: "1.0.0"
+		},
+		{
+		  abbr: "CITY",
+		  name: "City Mod",
+		  author: "Nexagon",
+		  category: "misc",
+		  imageUrl: "",
+		  codeUrl: "https://raw.githubusercontent.com/shattxr/Ace-Client/main/Mods/city.js",
+		  version: "1.0.0"
+		},
+		{
+		  abbr: "FLD7",
+		  name: "Flintlock Dueling Light [T7M]",
+		  author: "Nanoray",
+		  category: "dueling",
+		  imageUrl: "",
+		  codeUrl: "https://raw.githubusercontent.com/shattxr/Ace-Client/main/Mods/fld7.js",
+		  version: "1.9.3"
+		},
+		{
+		  abbr: "FLDV",
+		  name: "Flintlock Dueling Lite [Vanilla]",
+		  author: "Nanoray (ft. homigay)",
+		  category: "dueling",
+		  imageUrl: "https://raw.githubusercontent.com/shattxr/Ace-Client/main/Mods/thumbs/fld.png",
+		  codeUrl: "https://raw.githubusercontent.com/shattxr/Ace-Client/main/Mods/fldh.js",
+		  version: "1.1"
+		},
+		{
+		  abbr: "FLDR",
+		  name: "Flintlock Dueling Light [Revamp]",
+		  author: "Nanoray (ft. 5470p3_)",
+		  category: "dueling",
+		  imageUrl: "https://raw.githubusercontent.com/shattxr/Ace-Client/main/Mods/thumbs/fld.png",
+		  codeUrl: "https://raw.githubusercontent.com/shattxr/Ace-Client/main/Mods/fldr.js",
+		  version: "3.4.4"
+		},
+		{
+		  abbr: "H-S",
+		  name: "H-Series",
+		  author: "Void, MGRocket",
+		  category: "shiptree",
+		  imageUrl: "https://raw.githubusercontent.com/shattxr/Ace-Client/main/Mods/thumbs/hs.png",
+		  codeUrl: "https://raw.githubusercontent.com/shattxr/Ace-Client/main/Mods/hs.js",
+		  version: "1.0.0"
+		},
+		{
+		  abbr: "MEGD",
+		  name: "Meg's Dueling",
+		  author: "Megalodon, Lotus, Bhpsngum",
+		  category: "dueling",
+		  imageUrl: "",
+		  codeUrl: "https://raw.githubusercontent.com/shattxr/Ace-Client/main/Mods/megd.js",
+		  version: "1.4.2"
+		},
+		{
+		  abbr: "ODYM",
+		  name: "Oddy Mod",
+		  author: "cinnamon bun",
+		  category: "shiptree",
+		  imageUrl: "",
+		  codeUrl: "https://raw.githubusercontent.com/shattxr/Ace-Client/main/Mods/odym.js",
+		  version: "1.0.0"
+		},
+		{
+		  abbr: "PR",
+		  name: "Project R",
+		  author: "Azedioz/Plasma/Kuro",
+		  category: "shiptree",
+		  imageUrl: "",
+		  codeUrl: "https://raw.githubusercontent.com/shattxr/Ace-Client/main/Mods/pr.js",
+		  version: "1.0.0"
+		},
+		{
+		  abbr: "SBOP",
+		  name: "Starblast OP",
+		  author: "The Fish, Notus, Bhpsngum",
+		  category: "misc",
+		  imageUrl: "",
+		  codeUrl: "https://raw.githubusercontent.com/shattxr/Ace-Client/main/Mods/sbop.js",
+		  version: "1.0"
+		},
+		{
+		  abbr: "SCM",
+		  name: "Soccer Mod",
+		  author: "Uranus",
+		  category: "minigame",
+		  imageUrl: "https://raw.githubusercontent.com/shattxr/Ace-Client/main/Mods/thumbs/scm.png",
+		  codeUrl: "https://raw.githubusercontent.com/shattxr/Ace-Client/main/Mods/scm.js",
+		  version: "1.0.0"
+		},
+		{
+		  abbr: "X10",
+		  name: "Meme X10 Mod",
+		  author: "Spedry",
+		  category: "shiptree",
+		  imageUrl: "",
+		  codeUrl: "https://raw.githubusercontent.com/shattxr/Ace-Client/main/Mods/x10.js",
+		  version: "3.0.0"
+		},
+		{
+		  abbr: "X-S",
+		  name: "X-Series",
+		  author: "Void",
+		  category: "shiptree",
+		  imageUrl: "",
+		  codeUrl: "https://raw.githubusercontent.com/shattxr/Ace-Client/main/Mods/xs.js",
+		  version: "1.0"
+		}
+    ]
